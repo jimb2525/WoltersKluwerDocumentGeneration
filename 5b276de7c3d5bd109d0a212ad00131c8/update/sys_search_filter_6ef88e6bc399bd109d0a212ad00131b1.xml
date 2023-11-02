@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Packages">26f88e6bc399bd109d0a212ad001319f</ais_search_source>
+        <label>Packages</label>
+        <name>Packages</name>
+        <order>200</order>
+        <search_context_config display_value="WoltersKluwer Document Generation Workspace AI Search Configuration">89f80e6b1a99bd1044ea3cfdc24e9a7c</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 18:32:12</sys_created_on>
+        <sys_id>6ef88e6bc399bd109d0a212ad00131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Packages</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_search_filter_6ef88e6bc399bd109d0a212ad00131b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 18:32:12</sys_updated_on>
+    </sys_search_filter>
+</record_update>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="WoltersKluwer Document Generation Portal">b2a91329c3c2b5509d0a212ad00131b0</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Landing Page">03a913292bc2b550ac2c61934e4be4ff</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-10-23 02:04:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>83a9132952c2b55070eee1d113bd32df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_ux_page_property_83a9132952c2b55070eee1d113bd32df</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-23 02:04:04</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_woltersklu_0.b2a91329c3c2b5509d0a212ad00131b0.route.chrome_header.03a913292bc2b550ac2c61934e4be4ff</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false&#13;
+    }&#13;
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=83a9132952c2b55070eee1d113bd32df"/>
+</record_update>

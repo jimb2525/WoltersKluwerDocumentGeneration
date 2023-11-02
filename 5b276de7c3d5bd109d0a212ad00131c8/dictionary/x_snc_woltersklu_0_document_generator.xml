@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ee5eed23c319bd109d0a212ad0013171" extends="task" label="Document Generator" max_length="40" name="x_snc_woltersklu_0_document_generator" type="collection">
+        <element label="Organization" max_length="32" name="organization" reference="x_snc_woltersklu_0_organization" type="reference"/>
+        <element label="Package" max_length="32" name="package" reference="x_snc_woltersklu_0_packages" type="reference"/>
+        <element label="Products" max_length="32" name="products" reference="x_snc_woltersklu_0_products" type="reference"/>
+    </element>
+</database>

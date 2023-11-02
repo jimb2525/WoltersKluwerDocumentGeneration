@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>WKFS-ClientCertificate</name>
+        <rest_message display_value="Get Bearer token">11a7620cc35e71909d0a212ad001316b</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 16:52:54</sys_created_on>
+        <sys_id>5018620cc35e71909d0a212ad00131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>WKFS-ClientCertificate</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_rest_message_headers_5018620cc35e71909d0a212ad00131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 16:52:54</sys_updated_on>
+        <value>MIIDIjCCAgqgAwIBAgIQAOvddoyV406PAgLlgL0ruTANBgkqhkiG9w0BAQ0FADAfMR0wGwYDVQQDDBRDeW5jIExPUyAtIDEwMDEwODU5NjAeFw0yMzA3MTgxMjIxMzdaFw0yODA3MTgxMjIxMzdaMB8xHTAbBgNVBAMMFEN5bmMgTE9TIC0gMTAwMTA4NTk2MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtaNskhqzfKjcZV8aNf6a2Lcxacti331hAY6wvpifxvWqFWQwG+6xwv/zvOrbJg+Q8A9BpUkR5KRPcuIRALXF437HUXvN+xRmxso01dG2h2iA6YehYampLFkksZU9EPqwoUsx04U8aYToOoKS1lqnH2tT1Wyd3nZW98sg/n23VUuSxkZSr+H8nQpK02bqP2PIw5JLVMnniaP2lqh3IXbHz+UofXDWzeA/C9AxZ2BfoREGhQ+gB7ZGy8bJnxoVq8201fYe8UjldPEWZqBpVGOGWGqC4UT4WGstpspxJv55QE9ZHhkjWFd07wyterbvpzPLJOuF0YDAlKjbyGbmZv/krQIDAQABo1owWDBWBgNVHSMETzBNgBRw/T5ntH+rdFkMIfUG7KX0mxZnGaEjpCEwHzEdMBsGA1UEAwwUQ3luYyBMT1MgLSAxMDAxMDg1OTaCEADr3XaMleNOjwIC5YC9K7kwDQYJKoZIhvcNAQENBQADggEBAKuVHmP/ryQJpkwKItXmHVomx5qPW+HGy4mxLCIgQYEQavSoT/G7eGhgWBMrKhZslwouKyJ3bpX3+9Wcx2P9h8jk1+NJbCY/lb4aLBsPP9sYQfbjeA4c3ZvK353cUkwk0ZT1ap2mVgm/K8TXymnDWu6nagdDxcrP9F6MQN8oGda9d3vjsdP0Dfier3j5gmuDLKhBz7y/Vk8oIwePZD3eNnMIhGcluKOx++TxJyM8CTq7uefrBoD9Cur0vA6e7eEqougjtwie0Ym78uAhRcSCi0CKcVxIhqldwArL/VhQA2cKXFz/D7iavuInksYLio2WBteH/a1iwwwvYykqtyesY3A=</value>
+    </sys_rest_message_headers>
+</record_update>

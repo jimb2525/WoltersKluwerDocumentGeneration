@@ -1,0 +1,1305 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_loan_details</internal_name>
+        <label_cache>[{"name":"{{step[63e8c914-67f3-4e57-86c0-9d7ff455e474].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.loanRequestId}}","label":"step➛JSON Parser step➛root➛loanRequestId","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.loanSource}}","label":"step➛JSON Parser step➛root➛loanSource","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.applicationNumber}}","label":"step➛JSON Parser step➛root➛applicationNumber","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.loanName}}","label":"step➛JSON Parser step➛root➛loanName","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Get Loan Details</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 20:58:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>307a2e2fc35dbd109d0a212ad0013120</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Get Loan Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_307a2e2fc35dbd109d0a212ad0013120</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:25:15</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_variable_value action="delete_multiple" query="document_key=307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>307a2e2fc35dbd109d0a212ad0013120</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:59</sys_created_on>
+        <sys_id>b56c62efc35dbd109d0a212ad0013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:59</sys_updated_on>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"a45d4613-7a55-444e-b057-866dfbfb2ad7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}}}</value>
+        <variable display_value="Action Status">796c62efc35dbd109d0a212ad0013167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>307a2e2fc35dbd109d0a212ad0013120</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:59</sys_created_on>
+        <sys_id>f16c62efc35dbd109d0a212ad0013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:59</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">b96c62efc35dbd109d0a212ad001316c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application_number</field>
+        <id>307a2e2fc35dbd109d0a212ad0013120</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>0f3ea663c39dbd109d0a212ad00131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</table>
+        <value>{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.applicationNumber}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>loan_name</field>
+        <id>307a2e2fc35dbd109d0a212ad0013120</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>cf3ea663c39dbd109d0a212ad00131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</table>
+        <value>{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.loanName}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>loan_request_id</field>
+        <id>307a2e2fc35dbd109d0a212ad0013120</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>873ea663c39dbd109d0a212ad00131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</table>
+        <value>{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.loanRequestId}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>loan_source</field>
+        <id>307a2e2fc35dbd109d0a212ad0013120</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>4b3ea663c39dbd109d0a212ad00131e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</table>
+        <value>{{step[8fe3a9d2-1806-4000-b47d-72f085615d8e].root.loanSource}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>307a2e2fc35dbd109d0a212ad0013120</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:59</sys_created_on>
+        <sys_id>716c62efc35dbd109d0a212ad0013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>307a2e2fc35dbd109d0a212ad0013120</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:59</sys_created_on>
+        <sys_id>bd6c62efc35dbd109d0a212ad0013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:59</sys_updated_on>
+        <table>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=307a2e2fc35dbd109d0a212ad0013120^sys_idNOT IN11903627c39dbd109d0a212ad0013182,323ea663c39dbd109d0a212ad0013191,884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</action>
+        <cid>509c9808-9c87-4232-be59-450dd1ea635d</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Payload Builder step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Payload Builder">2429af02b3331300176b051a16a8dcab</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:25:14</sys_created_on>
+        <sys_id>11903627c39dbd109d0a212ad0013182</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:25:14</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=11903627c39dbd109d0a212ad0013182"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11903627c39dbd109d0a212ad0013182</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:25:14</sys_created_on>
+        <sys_id>59903627c39dbd109d0a212ad00131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:25:14</sys_updated_on>
+        <value>http://schemas.bankerssystems.com/2004/E</value>
+        <variable display_value="Namespace">459ba782b3331300176b051a16a8dcc2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11903627c39dbd109d0a212ad0013182</document_key>
+        <order>60</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:25:14</sys_created_on>
+        <sys_id>95903627c39dbd109d0a212ad00131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:25:14</sys_updated_on>
+        <value>Txn</value>
+        <variable display_value="Parent Node">c44b2782b3331300176b051a16a8dcc4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11903627c39dbd109d0a212ad0013182</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:25:14</sys_created_on>
+        <sys_id>d1903627c39dbd109d0a212ad00131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:25:14</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{},"name":"loanRequestId","value":"1000998"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"loanSource","value":"New"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"applicationNumber","value":"XYZ0000000935"},{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"loanName","value":"Idexcel Loan"}]}</value>
+        <variable display_value="Name Value Pairs">89cb2b82b3331300176b051a16a8dc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>11903627c39dbd109d0a212ad0013182</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:25:14</sys_created_on>
+        <sys_id>d9903627c39dbd109d0a212ad00131b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:25:14</sys_updated_on>
+        <value>xml</value>
+        <variable display_value="Output Format">d2b9eb42b3331300176b051a16a8dc39</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_2429af02b3331300176b051a16a8dcab^id=11903627c39dbd109d0a212ad0013182"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=11903627c39dbd109d0a212ad0013182"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=11903627c39dbd109d0a212ad0013182"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=11903627c39dbd109d0a212ad0013182"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=11903627c39dbd109d0a212ad0013182"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_11903627c39dbd109d0a212ad0013182"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</action>
+        <cid>8fe3a9d2-1806-4000-b47d-72f085615d8e</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:58</sys_created_on>
+        <sys_id>323ea663c39dbd109d0a212ad0013191</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=323ea663c39dbd109d0a212ad0013191"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>323ea663c39dbd109d0a212ad0013191</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>3e3ea663c39dbd109d0a212ad001319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>323ea663c39dbd109d0a212ad0013191</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>7a3ea663c39dbd109d0a212ad001319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <value>{"loanRequestId":1000998,"loanSource":"New","applicationNumber":"XYZ0000000935","loanName":"Idexcel Loan","proposedLoanAmount":5000000,"applicationDate":"2023-09-20T00:00:00.000Z","requestType":"New","requestTypeRef":"NEW","bookedLoanNumber":null,"existingLoanId":null,"loanLevel1":"BYH Test Commercial Loans","loanLevel2":"Letter of Credit","loanLevel3":null,"loanLevel1UniqueId":"LL1_BYH_TES_1688744545596","loanLevel2UniqueId":"LL2_LET_OF_1688744545596","loanLevel3UniqueId":null,"loanLevel1CoreIdentifier":"cid_1000087","loanLevel2CoreIdentifier":"cid_1000090","loanLevel3CoreIdentifier":null,"createdBy":"6","createdAt":"2023-09-20T21:48:33.532Z","modifiedBy":"6","relationshipManager":"6","portfolioManager":"110","loanPurpose":"Working Capital","borrowers":[{"entityId":"XYZ0001039C","borrowerType":1000000,"metaObj":{"borrowerStructureId":1000000,"bsName":"Borrower","isBorrower":true,"isGuarantor":false,"isContingency":false,"isDefaultHundred":true,"isMultiple":false,"isPercent":false,"isExposure":true,"isLgd":true,"isPledge":false,"partyResponsible":"1000661","uniqueId":"XYZO1000000LNBS","contingencyTypes":[]}}],"guarantors":[],"reqConversionRate":1,"commConversionRate":null,"commApplicationNumber":null,"isLoanApproved":null,"currentStage":{"stageId":1000001,"stageName":"Approval","stageDescription":"This stage is for the loan to pass through the approval process in order to make approve, decline or counter offer a loan request created.","referenceValue":"approval"},"lifecycleJSON":{"tasks":[],"stages":[{"stageId":1000006,"uniqueId":"XYZ1000006LNSTAGE","stageName":"Initial","loanTypeId":"1000087","modifiedAt":"2023-08-14T23:26:56.386Z","modifiedBy":"22","softDelete":false,"stageOrder":1,"requestType":"1000004","estimatedDays":1,"estimatedHours":0,"referenceValue":null,"estimatedMinutes":0,"stageDescription":"First stage in Commercial Loan Lifecycle","stageTypeMappingId":1000046},{"stageId":1000007,"uniqueId":"XYZ1000007LNSTAGE","stageName":"Underwriting","loanTypeId":"1000087","modifiedAt":"2023-08-14T23:26:56.386Z","modifiedBy":"22","softDelete":false,"stageOrder":2,"requestType":"1000004","estimatedDays":2,"estimatedHours":0,"referenceValue":null,"estimatedMinutes":0,"stageDescription":"Credit analysis is performed and credit memo is written","stageTypeMappingId":1000047},{"stageId":1000001,"uniqueId":"XYZO1000001LNSTAGE","stageName":"Approval","loanTypeId":"1000087","modifiedAt":"2023-08-14T23:26:56.386Z","modifiedBy":"22","softDelete":false,"stageOrder":3,"requestType":"1000004","estimatedDays":0,"estimatedHours":0,"referenceValue":"approval","estimatedMinutes":0,"stageDescription":"This stage is for the loan to pass through the approval process in order to make approve, decline or counter offer a loan request created.","stageTypeMappingId":1000032},{"stageId":1000008,"uniqueId":"XYZ1000008LNSTAGE","stageName":"Lender Review","loanTypeId":"1000087","modifiedAt":"2023-08-14T23:26:56.386Z","modifiedBy":"22","softDelete":false,"stageOrder":4,"requestType":"1000004","estimatedDays":2,"estimatedHours":0,"referenceValue":null,"estimatedMinutes":0,"stageDescription":"Loan team reviews approval and gathers all documents needed for doc prep.","stageTypeMappingId":1000048},{"stageId":1000004,"uniqueId":"XYZO1000004LNSTAGE","stageName":"Doc Generation","loanTypeId":"1000087","modifiedAt":"2023-08-14T23:26:56.386Z","modifiedBy":"22","softDelete":false,"stageOrder":5,"requestType":"1000004","estimatedDays":1,"estimatedHours":0,"referenceValue":"doc_generation","estimatedMinutes":0,"stageDescription":"This stage is for doc generation","stageTypeMappingId":1000033},{"stageId":1000002,"uniqueId":"XYZO1000002LNSTAGE","stageName":"Closing","loanTypeId":"1000087","modifiedAt":"2023-08-14T23:26:56.386Z","modifiedBy":"22","softDelete":false,"stageOrder":6,"requestType":"1000004","estimatedDays":0,"estimatedHours":0,"referenceValue":"closing","estimatedMinutes":0,"stageDescription":"This stage is almost the final stage of loan origination process, where the loan is ready to be booked in the core banking system.","closingDocTemplate":[],"stageTypeMappingId":1000034},{"stageId":1000003,"uniqueId":"XYZO1000003LNSTAGE","stageName":"Booking","loanTypeId":"1000087","modifiedAt":"2023-08-14T23:26:56.386Z","modifiedBy":"22","softDelete":false,"stageOrder":7,"requestType":"1000004","estimatedDays":0,"estimatedHours":0,"referenceValue":"booking","estimatedMinutes":0,"stageDescription":"This stage is used to book the loan in the corebanking system, where a loan number is generated.","stageTypeMappingId":1000035}]},"loanStatus":"In-Process","currency":1000007,"pricing":{"disbursementCurrencies":[],"periods":[{"index":1,"reqPricingId":1000307,"interestRateType":"Fixed","pricingComments":"","proposedInterestRate":6.1,"createdBy":6,"modifiedAt":"2023-09-20T21:53:37.985Z","interestAccrualBasis":"365/366","terms":[{"reqPricingTermsId":1000301,"paymentType":"Interest Only","proposedTerm":12,"termUnits":"Year(s)","proposedAmortization":null,"amortizationUnits":"N/A","paymentFrequency":"Monthly","isInterestAccrued":false,"paymentTypeValue":"PMTP_INTEREST_ONLY","modifiedAt":"2023-09-20T21:53:37.985Z","BALLOON_PAYMENT":{"isBalloonPayment":false},"paymentTypeId":1000272,"termUnitsId":1000280,"amortizationUnitsId":null,"paymentFrequencyId":1000259}],"indexes":null,"sublimitRows":[{"sublimitCategory":1000809,"loanRequestBorrowerIds":[{"loanRequestBorrowerId":1001348,"reqSublimitId":1000046,"entityId":"XYZ0001039C","relationshipName":"Idexcel, INC"}],"sublimitPurpose":"This sublimit is for equipment","sublimitAmount":5000,"sublimitPricing":4}],"GRID_PRICING":{"isGridPricing":false,"gridPricingComment":null},"interestAccrualBasisId":1000326}]},"generalinformation":{"transactionDetails":{"loanRequestId":1000998,"commitmentId":null,"relationshipManager":"6","portfolioManager":"110","applicationDate":"2023-09-20T00:00:00.000Z","estimatedClosingDate":"2023-09-26T21:48:33.244Z","projectedClosingDate":"2023-09-26T21:48:33.244Z","loanName":"Idexcel Loan","proposedLoanAmount":5000000,"loanPurpose":"Working Capital","purposeDescription":null,"currency":"United States (Dollar)","reqConversionRate":1,"requestType":"New","reqDetailsId":"1000466","primaryRepaymentSource":"Collateral sales","secondaryRepaymentSource":"Asset conversion","teritiaryRepaymentSource":"Global cash flows","repaymentSourceComment":0,"stageAssignee":6,"groupAssignee":null,"expiryDate":"2023-11-22T00:00:00.000Z","maturityDate":"2023-11-22T00:00:00.000Z","expenseCode":"11LLNO","portfolioCode":"USAGRINC","stageId":1000001,"applicationNumber":"XYZ0000000935","bookedLoanNumber":null,"modifiedAt":"2023-09-20T21:54:32.494Z","requestTypeId":"1000004","disbursementCurrencies":[],"isNonRecourse":false,"isCarveOut":false,"borrowerContacts":[{"loanRequestBorrowerId":"1001348","entityId":"XYZ0001039C","reqBorrowerContactId":"1000124","contactUniqueId":"XYZ0261RTM"}],"reqModificationPurpose":[],"loanLevel1Id":1000087,"loanLevel1":"BYH Test Commercial Loans","loanLevel2Id":1000090,"loanLevel2":"Letter of Credit","loanLevel3Id":null,"loanLevel3":null,"loanPurposeId":1000017,"expenseCodeId":1000633,"portfolioCodeId":1000640,"currencyId":1000007,"currencyValue":"USD","primaryRepaymentSourceId":1000285,"secondaryRepaymentSourceId":1000284,"teritiaryRepaymentSourceId":1000282},"SWINGLINE_LENDER":{"swinglineLender":false,"proposedSwinglineLender":null}},"other":{"REAL_ESTATE":{"realEstateIsCommercial":"Commercial","realEstateOccupancy":"Owner","realEstatePropertyType":"Multifamily Rental","realEstatePropertySubType":"Multifamily Apartment - Urban Midrise","realEstateProjectType":"Commercial Land Development Loan (\"D\")","realEstatePropertyAddress":"459 Herndon Parkway","realEstatePropertyDescription":null,"realestatePropertyCity":"Herndon","realestatePropertyState":"Virginia","realestatePropertyCountry":"United States","realestatePropertyZipcode":"20170","companyType":"Operating Company","downPayment":20000000,"operatingOwner":"{}","realestatePropertyMapCordinates":"{\"lat\":38.9578175,\"lng\":-77.37483619999999}","sourcesAndUses":{"sources":[{"reqSourceOfFundsId":1000022,"colNum":1,"fieldName":"Applicant Equity","isBase":false,"total":5,"perUnitSF":0,"percent":0},{"reqSourceOfFundsId":1000023,"colNum":2,"fieldName":"Line of Credit","isBase":false,"total":5,"perUnitSF":0,"percent":0},{"reqSourceOfFundsId":1000024,"colNum":3,"fieldName":"Bank Note","isBase":false,"total":5,"perUnitSF":0,"percent":0}],"usesAndMapping":[{"use":{"reqUsesOfFundsId":1000019,"rowNum":1,"fieldName":"Refinancing Debts","fundType":"Other Costs","isBase":false,"total":1,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000047,"reqSourceOfFundsId":1000022,"fieldValue":1,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000048,"reqSourceOfFundsId":1000023,"fieldValue":0,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000049,"reqSourceOfFundsId":1000024,"fieldValue":0,"colNum":3,"percent":0,"perUnitSF":0}]},{"use":{"reqUsesOfFundsId":1000020,"rowNum":2,"fieldName":"Closing Cost","fundType":"Other Costs","isBase":false,"total":2,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000050,"reqSourceOfFundsId":1000022,"fieldValue":0,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000051,"reqSourceOfFundsId":1000023,"fieldValue":2,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000052,"reqSourceOfFundsId":1000024,"fieldValue":0,"colNum":3,"percent":0,"perUnitSF":0}]},{"use":{"reqUsesOfFundsId":1000021,"rowNum":3,"fieldName":"Documentation","fundType":"Soft Costs","isBase":false,"total":2,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000053,"reqSourceOfFundsId":1000022,"fieldValue":2,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000054,"reqSourceOfFundsId":1000023,"fieldValue":0,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000055,"reqSourceOfFundsId":1000024,"fieldValue":0,"colNum":3,"percent":0,"perUnitSF":0}]},{"use":{"reqUsesOfFundsId":1000022,"rowNum":4,"fieldName":"Construction materials","fundType":"Hard Costs","isBase":false,"total":10,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000056,"reqSourceOfFundsId":1000022,"fieldValue":2,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000057,"reqSourceOfFundsId":1000023,"fieldValue":3,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000058,"reqSourceOfFundsId":1000024,"fieldValue":5,"colNum":3,"percent":0,"perUnitSF":0}]}],"sourcesUsesUnits":null,"sourcesUsesComments":null,"total":15,"totalCost":[],"perUnitSF":0,"isSourcePercent":false,"isSourcePerUnit":false,"ltcValue":33333333.333333332},"operatingOwnerValue":"N/A","realEstatePropertyTypeId":1000050,"realEstatePropertySubTypeId":1000052,"realestatePropertyStateId":"1000435","realestatePropertyCountryId":"1000383","realEstateProjectTypeId":1000040},"PARTICIPATION_BALANCE":{},"COLLATERAL_BBC":{"isBbc":null}},"borrowerstructure":[{"borrowerId":"1001348","entityId":"XYZ0001039C","borrowerType":"Borrower","borrowerTypeId":"1000000","createdBy":"6","createdAt":"2023-09-20T21:48:33.532Z","modifiedBy":"6","modifiedAt":"2023-09-20T21:48:33.532Z","borrowerComments":null,"metaDataObj":{"borrowerStructureId":1000000,"bsName":"Borrower","isBorrower":true,"isGuarantor":false,"isContingency":false,"isDefaultHundred":true,"isMultiple":false,"isPercent":false,"isExposure":true,"isLgd":true,"isPledge":false,"partyResponsible":"1000661","uniqueId":"XYZO1000000LNBS","contingencyTypes":[]},"signers":[{"contactUniqueId":"XYZ0261RTM","entityId":"XYZ0001039C"}],"entityName":"Idexcel, INC","borrowerEntityCorebankingId":null,"entityTypeConfig":"LLC","roleType":"Borrower"}],"compliance":{"isRegCApplicable":null,"regB":{},"regO":{},"cra":{},"hvcre":{},"regC":{}},"fees":{"feeStructure":[{"reqFeeId":1000166,"feeGroupId":1000000,"feeIndividualId":1000005,"feeType":"Specific Amount","paidBy":"Borrower","feeStructure":null,"loanPercentageGrid":[],"feeAmountGrid":[],"loanPercentage":null,"feeAmount":1000,"transferFee":null,"annualFee":null,"rate":null,"paymentFrequency":"N/A","sourceOfPayment":"N/A","customFee":null,"customFeeDescription":null,"feeComment":"","borrowerShare":null,"lenderShare":null,"sellerShare":null,"waiverComments":null,"glcode":"N/A","paidToPayee":"N/A","paymentMethod":"Cash","dayBasis":"N/A","proposedLoanAmount":5000000,"applicationNumber":"XYZ0000000935","feeGroup":"Origination","feeIndividual":"Application","paidById":"1000327","glcodeId":null,"paidToPayeeId":null,"paymentFrequencyId":null,"dayBasisId":null,"paymentMethodId":1000333}],"prepaidAmounts":[],"totalFee":1000,"prepaidAmount":0,"remainingFee":1000},"dynamiccomp":{"REAL_ESTATE":{"realEstateIsCommercial":"Commercial","realEstateOccupancy":"Owner","realEstatePropertyType":"Multifamily Rental","realEstatePropertySubType":"Multifamily Apartment - Urban Midrise","realEstateProjectType":"Commercial Land Development Loan (\"D\")","realEstatePropertyAddress":"459 Herndon Parkway","realEstatePropertyDescription":null,"realestatePropertyCity":"Herndon","realestatePropertyState":"Virginia","realestatePropertyCountry":"United States","realestatePropertyZipcode":"20170","companyType":"Operating Company","downPayment":20000000,"operatingOwner":"{}","realestatePropertyMapCordinates":"{\"lat\":38.9578175,\"lng\":-77.37483619999999}","sourcesAndUses":{"sources":[{"reqSourceOfFundsId":1000022,"colNum":1,"fieldName":"Applicant Equity","isBase":false,"total":5,"perUnitSF":0,"percent":0},{"reqSourceOfFundsId":1000023,"colNum":2,"fieldName":"Line of Credit","isBase":false,"total":5,"perUnitSF":0,"percent":0},{"reqSourceOfFundsId":1000024,"colNum":3,"fieldName":"Bank Note","isBase":false,"total":5,"perUnitSF":0,"percent":0}],"usesAndMapping":[{"use":{"reqUsesOfFundsId":1000019,"rowNum":1,"fieldName":"Refinancing Debts","fundType":"Other Costs","isBase":false,"total":1,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000047,"reqSourceOfFundsId":1000022,"fieldValue":1,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000048,"reqSourceOfFundsId":1000023,"fieldValue":0,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000049,"reqSourceOfFundsId":1000024,"fieldValue":0,"colNum":3,"percent":0,"perUnitSF":0}]},{"use":{"reqUsesOfFundsId":1000020,"rowNum":2,"fieldName":"Closing Cost","fundType":"Other Costs","isBase":false,"total":2,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000050,"reqSourceOfFundsId":1000022,"fieldValue":0,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000051,"reqSourceOfFundsId":1000023,"fieldValue":2,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000052,"reqSourceOfFundsId":1000024,"fieldValue":0,"colNum":3,"percent":0,"perUnitSF":0}]},{"use":{"reqUsesOfFundsId":1000021,"rowNum":3,"fieldName":"Documentation","fundType":"Soft Costs","isBase":false,"total":2,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000053,"reqSourceOfFundsId":1000022,"fieldValue":2,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000054,"reqSourceOfFundsId":1000023,"fieldValue":0,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000055,"reqSourceOfFundsId":1000024,"fieldValue":0,"colNum":3,"percent":0,"perUnitSF":0}]},{"use":{"reqUsesOfFundsId":1000022,"rowNum":4,"fieldName":"Construction materials","fundType":"Hard Costs","isBase":false,"total":10,"perUnitSF":0},"mapping":[{"reqSourceUsesMappingId":1000056,"reqSourceOfFundsId":1000022,"fieldValue":2,"colNum":1,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000057,"reqSourceOfFundsId":1000023,"fieldValue":3,"colNum":2,"percent":0,"perUnitSF":0},{"reqSourceUsesMappingId":1000058,"reqSourceOfFundsId":1000024,"fieldValue":5,"colNum":3,"percent":0,"perUnitSF":0}]}],"sourcesUsesUnits":null,"sourcesUsesComments":null,"total":15,"totalCost":[],"perUnitSF":0,"isSourcePercent":false,"isSourcePerUnit":false,"ltcValue":33333333.333333332},"operatingOwnerValue":"N/A","realEstatePropertyTypeId":1000050,"realEstatePropertySubTypeId":1000052,"realestatePropertyStateId":"1000435","realestatePropertyCountryId":"1000383","realEstateProjectTypeId":1000040},"PARTICIPATION_BALANCE":{},"COLLATERAL_BBC":{"isBbc":null}},"requestTypeId":1000004,"loanPurposeId":1000017,"loanLevel1Id":1000087,"loanLevel2Id":1000090,"loanLevel3Id":null,"loanStatusId":1000011,"loanStatusRef":"INPROCESS"}</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>323ea663c39dbd109d0a212ad0013191</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>b63ea663c39dbd109d0a212ad001319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"loanRequestId","children":[],"type":"string","jpath":"$.loanRequestId","previewValue":"1000998"},{"name":"loanSource","children":[],"type":"string","jpath":"$.loanSource","previewValue":"New"},{"name":"applicationNumber","children":[],"type":"string","jpath":"$.applicationNumber","previewValue":"XYZ0000000935"},{"name":"loanName","children":[],"type":"string","jpath":"$.loanName","previewValue":"Idexcel Loan"},{"name":"proposedLoanAmount","children":[],"type":"string","jpath":"$.proposedLoanAmount","previewValue":"5000000"},{"name":"applicationDate","children":[],"type":"string","jpath":"$.applicationDate","previewValue":"2023-09-20T00:00:00.000Z"},{"name":"requestType","children":[],"type":"string","jpath":"$.requestType","previewValue":"New"},{"name":"requestTypeRef","children":[],"type":"string","jpath":"$.requestTypeRef","previewValue":"NEW"},{"name":"bookedLoanNumber","children":[],"type":"string","jpath":"$.bookedLoanNumber","previewValue":""},{"name":"existingLoanId","children":[],"type":"string","jpath":"$.existingLoanId","previewValue":""},{"name":"loanLevel1","children":[],"type":"string","jpath":"$.loanLevel1","previewValue":"BYH Test Commercial Loans"},{"name":"loanLevel2","children":[],"type":"string","jpath":"$.loanLevel2","previewValue":"Letter of Credit"},{"name":"loanLevel3","children":[],"type":"string","jpath":"$.loanLevel3","previewValue":""},{"name":"loanLevel1UniqueId","children":[],"type":"string","jpath":"$.loanLevel1UniqueId","previewValue":"LL1_BYH_TES_1688744545596"},{"name":"loanLevel2UniqueId","children":[],"type":"string","jpath":"$.loanLevel2UniqueId","previewValue":"LL2_LET_OF_1688744545596"},{"name":"loanLevel3UniqueId","children":[],"type":"string","jpath":"$.loanLevel3UniqueId","previewValue":""},{"name":"loanLevel1CoreIdentifier","children":[],"type":"string","jpath":"$.loanLevel1CoreIdentifier","previewValue":"cid_1000087"},{"name":"loanLevel2CoreIdentifier","children":[],"type":"string","jpath":"$.loanLevel2CoreIdentifier","previewValue":"cid_1000090"},{"name":"loanLevel3CoreIdentifier","children":[],"type":"string","jpath":"$.loanLevel3CoreIdentifier","previewValue":""},{"name":"createdBy","children":[],"type":"string","jpath":"$.createdBy","previewValue":"6"},{"name":"createdAt","children":[],"type":"string","jpath":"$.createdAt","previewValue":"2023-09-20T21:48:33.532Z"},{"name":"modifiedBy","children":[],"type":"string","jpath":"$.modifiedBy","previewValue":"6"},{"name":"relationshipManager","children":[],"type":"string","jpath":"$.relationshipManager","previewValue":"6"},{"name":"portfolioManager","children":[],"type":"string","jpath":"$.portfolioManager","previewValue":"110"},{"name":"loanPurpose","children":[],"type":"string","jpath":"$.loanPurpose","previewValue":"Working Capital"},{"name":"borrowers","children":[{"name":"borrowers_object","children":[{"name":"entityId","children":[],"type":"string","jpath":"$.borrowers[*].entityId","previewValue":"XYZ0001039C"},{"name":"borrowerType","children":[],"type":"string","jpath":"$.borrowers[*].borrowerType","previewValue":"1000000"},{"name":"metaObj","children":[{"name":"borrowerStructureId","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.borrowerStructureId","previewValue":"1000000"},{"name":"bsName","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.bsName","previewValue":"Borrower"},{"name":"isBorrower","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isBorrower","previewValue":"true"},{"name":"isGuarantor","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isGuarantor","previewValue":"false"},{"name":"isContingency","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isContingency","previewValue":"false"},{"name":"isDefaultHundred","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isDefaultHundred","previewValue":"true"},{"name":"isMultiple","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isMultiple","previewValue":"false"},{"name":"isPercent","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isPercent","previewValue":"false"},{"name":"isExposure","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isExposure","previewValue":"true"},{"name":"isLgd","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isLgd","previewValue":"true"},{"name":"isPledge","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.isPledge","previewValue":"false"},{"name":"partyResponsible","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.partyResponsible","previewValue":"1000661"},{"name":"uniqueId","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.uniqueId","previewValue":"XYZO1000000LNBS"},{"name":"contingencyTypes","children":[{"name":"contingencyTypes_string","children":[],"type":"string","jpath":"$.borrowers[*].metaObj.contingencyTypes[*]","previewValue":""}],"type":"array.string","jpath":"$.borrowers[*].metaObj.contingencyTypes[*]","previewValue":""}],"type":"object","jpath":"$.borrowers[*].metaObj","previewValue":""}],"type":"object","jpath":"$.borrowers[*]","previewValue":""}],"type":"array.object","jpath":"$.borrowers[*]","previewValue":""},{"name":"guarantors","children":[{"name":"guarantors_string","children":[],"type":"string","jpath":"$.guarantors[*]","previewValue":""}],"type":"array.string","jpath":"$.guarantors[*]","previewValue":""},{"name":"reqConversionRate","children":[],"type":"string","jpath":"$.reqConversionRate","previewValue":"1"},{"name":"commConversionRate","children":[],"type":"string","jpath":"$.commConversionRate","previewValue":""},{"name":"commApplicationNumber","children":[],"type":"string","jpath":"$.commApplicationNumber","previewValue":""},{"name":"isLoanApproved","children":[],"type":"string","jpath":"$.isLoanApproved","previewValue":""},{"name":"currentStage","children":[{"name":"stageId","children":[],"type":"string","jpath":"$.currentStage.stageId","previewValue":"1000001"},{"name":"stageName","children":[],"type":"string","jpath":"$.currentStage.stageName","previewValue":"Approval"},{"name":"stageDescription","children":[],"type":"string","jpath":"$.currentStage.stageDescription","previewValue":"This stage is for the loan to pass through the approval process in order to make approve, decline or counter offer a loan request created."},{"name":"referenceValue","children":[],"type":"string","jpath":"$.currentStage.referenceValue","previewValue":"approval"}],"type":"object","jpath":"$.currentStage","previewValue":""},{"name":"lifecycleJSON","children":[{"name":"tasks","children":[{"name":"tasks_string","children":[],"type":"string","jpath":"$.lifecycleJSON.tasks[*]","previewValue":""}],"type":"array.string","jpath":"$.lifecycleJSON.tasks[*]","previewValue":""},{"name":"stages","children":[{"name":"stages_object","children":[{"name":"stageId","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].stageId","previewValue":"1000006"},{"name":"uniqueId","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].uniqueId","previewValue":"XYZ1000006LNSTAGE"},{"name":"stageName","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].stageName","previewValue":"Initial"},{"name":"loanTypeId","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].loanTypeId","previewValue":"1000087"},{"name":"modifiedAt","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].modifiedAt","previewValue":"2023-08-14T23:26:56.386Z"},{"name":"modifiedBy","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].modifiedBy","previewValue":"22"},{"name":"softDelete","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].softDelete","previewValue":"false"},{"name":"stageOrder","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].stageOrder","previewValue":"1"},{"name":"requestType","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].requestType","previewValue":"1000004"},{"name":"estimatedDays","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].estimatedDays","previewValue":"1"},{"name":"estimatedHours","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].estimatedHours","previewValue":"0"},{"name":"referenceValue","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].referenceValue","previewValue":""},{"name":"estimatedMinutes","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].estimatedMinutes","previewValue":"0"},{"name":"stageDescription","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].stageDescription","previewValue":"First stage in Commercial Loan Lifecycle"},{"name":"stageTypeMappingId","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].stageTypeMappingId","previewValue":"1000046"},{"name":"closingDocTemplate","children":[{"name":"closingDocTemplate_string","children":[],"type":"string","jpath":"$.lifecycleJSON.stages[*].closingDocTemplate[*]","previewValue":""}],"type":"array.string","jpath":"$.lifecycleJSON.stages[*].closingDocTemplate[*]","previewValue":""}],"type":"object","jpath":"$.lifecycleJSON.stages[*]","previewValue":""}],"type":"array.object","jpath":"$.lifecycleJSON.stages[*]","previewValue":""}],"type":"object","jpath":"$.lifecycleJSON","previewValue":""},{"name":"loanStatus","children":[],"type":"string","jpath":"$.loanStatus","previewValue":"In-Process"},{"name":"currency","children":[],"type":"string","jpath":"$.currency","previewValue":"1000007"},{"name":"pricing","children":[{"name":"disbursementCurrencies","children":[{"name":"disbursementCurrencies_string","children":[],"type":"string","jpath":"$.pricing.disbursementCurrencies[*]","previewValue":""}],"type":"array.string","jpath":"$.pricing.disbursementCurrencies[*]","previewValue":""},{"name":"periods","children":[{"name":"periods_object","children":[{"name":"index","children":[],"type":"string","jpath":"$.pricing.periods[*].index","previewValue":"1"},{"name":"reqPricingId","children":[],"type":"string","jpath":"$.pricing.periods[*].reqPricingId","previewValue":"1000307"},{"name":"interestRateType","children":[],"type":"string","jpath":"$.pricing.periods[*].interestRateType","previewValue":"Fixed"},{"name":"pricingComments","children":[],"type":"string","jpath":"$.pricing.periods[*].pricingComments","previewValue":""},{"name":"proposedInterestRate","children":[],"type":"string","jpath":"$.pricing.periods[*].proposedInterestRate","previewValue":"6.1"},{"name":"createdBy","children":[],"type":"string","jpath":"$.pricing.periods[*].createdBy","previewValue":"6"},{"name":"modifiedAt","children":[],"type":"string","jpath":"$.pricing.periods[*].modifiedAt","previewValue":"2023-09-20T21:53:37.985Z"},{"name":"interestAccrualBasis","children":[],"type":"string","jpath":"$.pricing.periods[*].interestAccrualBasis","previewValue":"365/366"},{"name":"terms","children":[{"name":"terms_object","children":[{"name":"reqPricingTermsId","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].reqPricingTermsId","previewValue":"1000301"},{"name":"paymentType","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].paymentType","previewValue":"Interest Only"},{"name":"proposedTerm","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].proposedTerm","previewValue":"12"},{"name":"termUnits","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].termUnits","previewValue":"Year(s)"},{"name":"proposedAmortization","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].proposedAmortization","previewValue":""},{"name":"amortizationUnits","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].amortizationUnits","previewValue":"N/A"},{"name":"paymentFrequency","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].paymentFrequency","previewValue":"Monthly"},{"name":"isInterestAccrued","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].isInterestAccrued","previewValue":"false"},{"name":"paymentTypeValue","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].paymentTypeValue","previewValue":"PMTP_INTEREST_ONLY"},{"name":"modifiedAt","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].modifiedAt","previewValue":"2023-09-20T21:53:37.985Z"},{"name":"BALLOON_PAYMENT","children":[{"name":"isBalloonPayment","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].BALLOON_PAYMENT.isBalloonPayment","previewValue":"false"}],"type":"object","jpath":"$.pricing.periods[*].terms[*].BALLOON_PAYMENT","previewValue":""},{"name":"paymentTypeId","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].paymentTypeId","previewValue":"1000272"},{"name":"termUnitsId","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].termUnitsId","previewValue":"1000280"},{"name":"amortizationUnitsId","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].amortizationUnitsId","previewValue":""},{"name":"paymentFrequencyId","children":[],"type":"string","jpath":"$.pricing.periods[*].terms[*].paymentFrequencyId","previewValue":"1000259"}],"type":"object","jpath":"$.pricing.periods[*].terms[*]","previewValue":""}],"type":"array.object","jpath":"$.pricing.periods[*].terms[*]","previewValue":""},{"name":"indexes","children":[],"type":"string","jpath":"$.pricing.periods[*].indexes","previewValue":""},{"name":"sublimitRows","children":[{"name":"sublimitRows_object","children":[{"name":"sublimitCategory","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].sublimitCategory","previewValue":"1000809"},{"name":"loanRequestBorrowerIds","children":[{"name":"loanRequestBorrowerIds_object","children":[{"name":"loanRequestBorrowerId","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].loanRequestBorrowerIds[*].loanRequestBorrowerId","previewValue":"1001348"},{"name":"reqSublimitId","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].loanRequestBorrowerIds[*].reqSublimitId","previewValue":"1000046"},{"name":"entityId","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].loanRequestBorrowerIds[*].entityId","previewValue":"XYZ0001039C"},{"name":"relationshipName","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].loanRequestBorrowerIds[*].relationshipName","previewValue":"Idexcel, INC"}],"type":"object","jpath":"$.pricing.periods[*].sublimitRows[*].loanRequestBorrowerIds[*]","previewValue":""}],"type":"array.object","jpath":"$.pricing.periods[*].sublimitRows[*].loanRequestBorrowerIds[*]","previewValue":""},{"name":"sublimitPurpose","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].sublimitPurpose","previewValue":"This sublimit is for equipment"},{"name":"sublimitAmount","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].sublimitAmount","previewValue":"5000"},{"name":"sublimitPricing","children":[],"type":"string","jpath":"$.pricing.periods[*].sublimitRows[*].sublimitPricing","previewValue":"4"}],"type":"object","jpath":"$.pricing.periods[*].sublimitRows[*]","previewValue":""}],"type":"array.object","jpath":"$.pricing.periods[*].sublimitRows[*]","previewValue":""},{"name":"GRID_PRICING","children":[{"name":"isGridPricing","children":[],"type":"string","jpath":"$.pricing.periods[*].GRID_PRICING.isGridPricing","previewValue":"false"},{"name":"gridPricingComment","children":[],"type":"string","jpath":"$.pricing.periods[*].GRID_PRICING.gridPricingComment","previewValue":""}],"type":"object","jpath":"$.pricing.periods[*].GRID_PRICING","previewValue":""},{"name":"interestAccrualBasisId","children":[],"type":"string","jpath":"$.pricing.periods[*].interestAccrualBasisId","previewValue":"1000326"}],"type":"object","jpath":"$.pricing.periods[*]","previewValue":""}],"type":"array.object","jpath":"$.pricing.periods[*]","previewValue":""}],"type":"object","jpath":"$.pricing","previewValue":""},{"name":"generalinformation","children":[{"name":"transactionDetails","children":[{"name":"loanRequestId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanRequestId","previewValue":"1000998"},{"name":"commitmentId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.commitmentId","previewValue":""},{"name":"relationshipManager","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.relationshipManager","previewValue":"6"},{"name":"portfolioManager","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.portfolioManager","previewValue":"110"},{"name":"applicationDate","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.applicationDate","previewValue":"2023-09-20T00:00:00.000Z"},{"name":"estimatedClosingDate","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.estimatedClosingDate","previewValue":"2023-09-26T21:48:33.244Z"},{"name":"projectedClosingDate","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.projectedClosingDate","previewValue":"2023-09-26T21:48:33.244Z"},{"name":"loanName","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanName","previewValue":"Idexcel Loan"},{"name":"proposedLoanAmount","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.proposedLoanAmount","previewValue":"5000000"},{"name":"loanPurpose","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanPurpose","previewValue":"Working Capital"},{"name":"purposeDescription","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.purposeDescription","previewValue":""},{"name":"currency","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.currency","previewValue":"United States (Dollar)"},{"name":"reqConversionRate","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.reqConversionRate","previewValue":"1"},{"name":"requestType","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.requestType","previewValue":"New"},{"name":"reqDetailsId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.reqDetailsId","previewValue":"1000466"},{"name":"primaryRepaymentSource","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.primaryRepaymentSource","previewValue":"Collateral sales"},{"name":"secondaryRepaymentSource","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.secondaryRepaymentSource","previewValue":"Asset conversion"},{"name":"teritiaryRepaymentSource","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.teritiaryRepaymentSource","previewValue":"Global cash flows"},{"name":"repaymentSourceComment","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.repaymentSourceComment","previewValue":"0"},{"name":"stageAssignee","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.stageAssignee","previewValue":"6"},{"name":"groupAssignee","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.groupAssignee","previewValue":""},{"name":"expiryDate","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.expiryDate","previewValue":"2023-11-22T00:00:00.000Z"},{"name":"maturityDate","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.maturityDate","previewValue":"2023-11-22T00:00:00.000Z"},{"name":"expenseCode","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.expenseCode","previewValue":"11LLNO"},{"name":"portfolioCode","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.portfolioCode","previewValue":"USAGRINC"},{"name":"stageId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.stageId","previewValue":"1000001"},{"name":"applicationNumber","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.applicationNumber","previewValue":"XYZ0000000935"},{"name":"bookedLoanNumber","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.bookedLoanNumber","previewValue":""},{"name":"modifiedAt","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.modifiedAt","previewValue":"2023-09-20T21:54:32.494Z"},{"name":"requestTypeId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.requestTypeId","previewValue":"1000004"},{"name":"disbursementCurrencies","children":[{"name":"disbursementCurrencies_string","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.disbursementCurrencies[*]","previewValue":""}],"type":"array.string","jpath":"$.generalinformation.transactionDetails.disbursementCurrencies[*]","previewValue":""},{"name":"isNonRecourse","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.isNonRecourse","previewValue":"false"},{"name":"isCarveOut","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.isCarveOut","previewValue":"false"},{"name":"borrowerContacts","children":[{"name":"borrowerContacts_object","children":[{"name":"loanRequestBorrowerId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.borrowerContacts[*].loanRequestBorrowerId","previewValue":"1001348"},{"name":"entityId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.borrowerContacts[*].entityId","previewValue":"XYZ0001039C"},{"name":"reqBorrowerContactId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.borrowerContacts[*].reqBorrowerContactId","previewValue":"1000124"},{"name":"contactUniqueId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.borrowerContacts[*].contactUniqueId","previewValue":"XYZ0261RTM"}],"type":"object","jpath":"$.generalinformation.transactionDetails.borrowerContacts[*]","previewValue":""}],"type":"array.object","jpath":"$.generalinformation.transactionDetails.borrowerContacts[*]","previewValue":""},{"name":"reqModificationPurpose","children":[{"name":"reqModificationPurpose_string","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.reqModificationPurpose[*]","previewValue":""}],"type":"array.string","jpath":"$.generalinformation.transactionDetails.reqModificationPurpose[*]","previewValue":""},{"name":"loanLevel1Id","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanLevel1Id","previewValue":"1000087"},{"name":"loanLevel1","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanLevel1","previewValue":"BYH Test Commercial Loans"},{"name":"loanLevel2Id","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanLevel2Id","previewValue":"1000090"},{"name":"loanLevel2","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanLevel2","previewValue":"Letter of Credit"},{"name":"loanLevel3Id","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanLevel3Id","previewValue":""},{"name":"loanLevel3","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanLevel3","previewValue":""},{"name":"loanPurposeId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.loanPurposeId","previewValue":"1000017"},{"name":"expenseCodeId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.expenseCodeId","previewValue":"1000633"},{"name":"portfolioCodeId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.portfolioCodeId","previewValue":"1000640"},{"name":"currencyId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.currencyId","previewValue":"1000007"},{"name":"currencyValue","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.currencyValue","previewValue":"USD"},{"name":"primaryRepaymentSourceId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.primaryRepaymentSourceId","previewValue":"1000285"},{"name":"secondaryRepaymentSourceId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.secondaryRepaymentSourceId","previewValue":"1000284"},{"name":"teritiaryRepaymentSourceId","children":[],"type":"string","jpath":"$.generalinformation.transactionDetails.teritiaryRepaymentSourceId","previewValue":"1000282"}],"type":"object","jpath":"$.generalinformation.transactionDetails","previewValue":""},{"name":"SWINGLINE_LENDER","children":[{"name":"swinglineLender","children":[],"type":"string","jpath":"$.generalinformation.SWINGLINE_LENDER.swinglineLender","previewValue":"false"},{"name":"proposedSwinglineLender","children":[],"type":"string","jpath":"$.generalinformation.SWINGLINE_LENDER.proposedSwinglineLender","previewValue":""}],"type":"object","jpath":"$.generalinformation.SWINGLINE_LENDER","previewValue":""}],"type":"object","jpath":"$.generalinformation","previewValue":""},{"name":"other","children":[{"name":"REAL_ESTATE","children":[{"name":"realEstateIsCommercial","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstateIsCommercial","previewValue":"Commercial"},{"name":"realEstateOccupancy","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstateOccupancy","previewValue":"Owner"},{"name":"realEstatePropertyType","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstatePropertyType","previewValue":"Multifamily Rental"},{"name":"realEstatePropertySubType","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstatePropertySubType","previewValue":"Multifamily Apartment - Urban Midrise"},{"name":"realEstateProjectType","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstateProjectType","previewValue":"Commercial Land Development Loan (\"D\")"},{"name":"realEstatePropertyAddress","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstatePropertyAddress","previewValue":"459 Herndon Parkway"},{"name":"realEstatePropertyDescription","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstatePropertyDescription","previewValue":""},{"name":"realestatePropertyCity","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realestatePropertyCity","previewValue":"Herndon"},{"name":"realestatePropertyState","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realestatePropertyState","previewValue":"Virginia"},{"name":"realestatePropertyCountry","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realestatePropertyCountry","previewValue":"United States"},{"name":"realestatePropertyZipcode","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realestatePropertyZipcode","previewValue":"20170"},{"name":"companyType","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.companyType","previewValue":"Operating Company"},{"name":"downPayment","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.downPayment","previewValue":"20000000"},{"name":"operatingOwner","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.operatingOwner","previewValue":"{}"},{"name":"realestatePropertyMapCordinates","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realestatePropertyMapCordinates","previewValue":"{\"lat\":38.9578175,\"lng\":-77.37483619999999}"},{"name":"sourcesAndUses","children":[{"name":"sources","children":[{"name":"sources_object","children":[{"name":"reqSourceOfFundsId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*].reqSourceOfFundsId","previewValue":"1000022"},{"name":"colNum","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*].colNum","previewValue":"1"},{"name":"fieldName","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*].fieldName","previewValue":"Applicant Equity"},{"name":"isBase","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*].isBase","previewValue":"false"},{"name":"total","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*].total","previewValue":"5"},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*].perUnitSF","previewValue":"0"},{"name":"percent","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*].percent","previewValue":"0"}],"type":"object","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*]","previewValue":""}],"type":"array.object","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sources[*]","previewValue":""},{"name":"usesAndMapping","children":[{"name":"usesAndMapping_object","children":[{"name":"use","children":[{"name":"reqUsesOfFundsId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.reqUsesOfFundsId","previewValue":"1000019"},{"name":"rowNum","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.rowNum","previewValue":"1"},{"name":"fieldName","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.fieldName","previewValue":"Refinancing Debts"},{"name":"fundType","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.fundType","previewValue":"Other Costs"},{"name":"isBase","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.isBase","previewValue":"false"},{"name":"total","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.total","previewValue":"1"},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.perUnitSF","previewValue":"0"}],"type":"object","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use","previewValue":""},{"name":"mapping","children":[{"name":"mapping_object","children":[{"name":"reqSourceUsesMappingId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].reqSourceUsesMappingId","previewValue":"1000047"},{"name":"reqSourceOfFundsId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].reqSourceOfFundsId","previewValue":"1000022"},{"name":"fieldValue","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].fieldValue","previewValue":"1"},{"name":"colNum","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].colNum","previewValue":"1"},{"name":"percent","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].percent","previewValue":"0"},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].perUnitSF","previewValue":"0"}],"type":"object","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*]","previewValue":""}],"type":"array.object","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*]","previewValue":""}],"type":"object","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*]","previewValue":""}],"type":"array.object","jpath":"$.other.REAL_ESTATE.sourcesAndUses.usesAndMapping[*]","previewValue":""},{"name":"sourcesUsesUnits","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sourcesUsesUnits","previewValue":""},{"name":"sourcesUsesComments","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.sourcesUsesComments","previewValue":""},{"name":"total","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.total","previewValue":"15"},{"name":"totalCost","children":[{"name":"totalCost_string","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.totalCost[*]","previewValue":""}],"type":"array.string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.totalCost[*]","previewValue":""},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.perUnitSF","previewValue":"0"},{"name":"isSourcePercent","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.isSourcePercent","previewValue":"false"},{"name":"isSourcePerUnit","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.isSourcePerUnit","previewValue":"false"},{"name":"ltcValue","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.sourcesAndUses.ltcValue","previewValue":"3.3333333333333332E7"}],"type":"object","jpath":"$.other.REAL_ESTATE.sourcesAndUses","previewValue":""},{"name":"operatingOwnerValue","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.operatingOwnerValue","previewValue":"N/A"},{"name":"realEstatePropertyTypeId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstatePropertyTypeId","previewValue":"1000050"},{"name":"realEstatePropertySubTypeId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstatePropertySubTypeId","previewValue":"1000052"},{"name":"realestatePropertyStateId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realestatePropertyStateId","previewValue":"1000435"},{"name":"realestatePropertyCountryId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realestatePropertyCountryId","previewValue":"1000383"},{"name":"realEstateProjectTypeId","children":[],"type":"string","jpath":"$.other.REAL_ESTATE.realEstateProjectTypeId","previewValue":"1000040"}],"type":"object","jpath":"$.other.REAL_ESTATE","previewValue":""},{"name":"PARTICIPATION_BALANCE","children":[],"type":"object","jpath":"$.other.PARTICIPATION_BALANCE","previewValue":""},{"name":"COLLATERAL_BBC","children":[{"name":"isBbc","children":[],"type":"string","jpath":"$.other.COLLATERAL_BBC.isBbc","previewValue":""}],"type":"object","jpath":"$.other.COLLATERAL_BBC","previewValue":""}],"type":"object","jpath":"$.other","previewValue":""},{"name":"borrowerstructure","children":[{"name":"borrowerstructure_object","children":[{"name":"borrowerId","children":[],"type":"string","jpath":"$.borrowerstructure[*].borrowerId","previewValue":"1001348"},{"name":"entityId","children":[],"type":"string","jpath":"$.borrowerstructure[*].entityId","previewValue":"XYZ0001039C"},{"name":"borrowerType","children":[],"type":"string","jpath":"$.borrowerstructure[*].borrowerType","previewValue":"Borrower"},{"name":"borrowerTypeId","children":[],"type":"string","jpath":"$.borrowerstructure[*].borrowerTypeId","previewValue":"1000000"},{"name":"createdBy","children":[],"type":"string","jpath":"$.borrowerstructure[*].createdBy","previewValue":"6"},{"name":"createdAt","children":[],"type":"string","jpath":"$.borrowerstructure[*].createdAt","previewValue":"2023-09-20T21:48:33.532Z"},{"name":"modifiedBy","children":[],"type":"string","jpath":"$.borrowerstructure[*].modifiedBy","previewValue":"6"},{"name":"modifiedAt","children":[],"type":"string","jpath":"$.borrowerstructure[*].modifiedAt","previewValue":"2023-09-20T21:48:33.532Z"},{"name":"borrowerComments","children":[],"type":"string","jpath":"$.borrowerstructure[*].borrowerComments","previewValue":""},{"name":"metaDataObj","children":[{"name":"borrowerStructureId","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.borrowerStructureId","previewValue":"1000000"},{"name":"bsName","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.bsName","previewValue":"Borrower"},{"name":"isBorrower","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isBorrower","previewValue":"true"},{"name":"isGuarantor","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isGuarantor","previewValue":"false"},{"name":"isContingency","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isContingency","previewValue":"false"},{"name":"isDefaultHundred","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isDefaultHundred","previewValue":"true"},{"name":"isMultiple","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isMultiple","previewValue":"false"},{"name":"isPercent","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isPercent","previewValue":"false"},{"name":"isExposure","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isExposure","previewValue":"true"},{"name":"isLgd","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isLgd","previewValue":"true"},{"name":"isPledge","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.isPledge","previewValue":"false"},{"name":"partyResponsible","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.partyResponsible","previewValue":"1000661"},{"name":"uniqueId","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.uniqueId","previewValue":"XYZO1000000LNBS"},{"name":"contingencyTypes","children":[{"name":"contingencyTypes_string","children":[],"type":"string","jpath":"$.borrowerstructure[*].metaDataObj.contingencyTypes[*]","previewValue":""}],"type":"array.string","jpath":"$.borrowerstructure[*].metaDataObj.contingencyTypes[*]","previewValue":""}],"type":"object","jpath":"$.borrowerstructure[*].metaDataObj","previewValue":""},{"name":"signers","children":[{"name":"signers_object","children":[{"name":"contactUniqueId","children":[],"type":"string","jpath":"$.borrowerstructure[*].signers[*].contactUniqueId","previewValue":"XYZ0261RTM"},{"name":"entityId","children":[],"type":"string","jpath":"$.borrowerstructure[*].signers[*].entityId","previewValue":"XYZ0001039C"}],"type":"object","jpath":"$.borrowerstructure[*].signers[*]","previewValue":""}],"type":"array.object","jpath":"$.borrowerstructure[*].signers[*]","previewValue":""},{"name":"entityName","children":[],"type":"string","jpath":"$.borrowerstructure[*].entityName","previewValue":"Idexcel, INC"},{"name":"borrowerEntityCorebankingId","children":[],"type":"string","jpath":"$.borrowerstructure[*].borrowerEntityCorebankingId","previewValue":""},{"name":"entityTypeConfig","children":[],"type":"string","jpath":"$.borrowerstructure[*].entityTypeConfig","previewValue":"LLC"},{"name":"roleType","children":[],"type":"string","jpath":"$.borrowerstructure[*].roleType","previewValue":"Borrower"}],"type":"object","jpath":"$.borrowerstructure[*]","previewValue":""}],"type":"array.object","jpath":"$.borrowerstructure[*]","previewValue":""},{"name":"compliance","children":[{"name":"isRegCApplicable","children":[],"type":"string","jpath":"$.compliance.isRegCApplicable","previewValue":""},{"name":"regB","children":[],"type":"object","jpath":"$.compliance.regB","previewValue":""},{"name":"regO","children":[],"type":"object","jpath":"$.compliance.regO","previewValue":""},{"name":"cra","children":[],"type":"object","jpath":"$.compliance.cra","previewValue":""},{"name":"hvcre","children":[],"type":"object","jpath":"$.compliance.hvcre","previewValue":""},{"name":"regC","children":[],"type":"object","jpath":"$.compliance.regC","previewValue":""}],"type":"object","jpath":"$.compliance","previewValue":""},{"name":"fees","children":[{"name":"feeStructure","children":[{"name":"feeStructure_object","children":[{"name":"reqFeeId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].reqFeeId","previewValue":"1000166"},{"name":"feeGroupId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeGroupId","previewValue":"1000000"},{"name":"feeIndividualId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeIndividualId","previewValue":"1000005"},{"name":"feeType","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeType","previewValue":"Specific Amount"},{"name":"paidBy","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paidBy","previewValue":"Borrower"},{"name":"feeStructure","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeStructure","previewValue":""},{"name":"loanPercentageGrid","children":[{"name":"loanPercentageGrid_string","children":[],"type":"string","jpath":"$.fees.feeStructure[*].loanPercentageGrid[*]","previewValue":""}],"type":"array.string","jpath":"$.fees.feeStructure[*].loanPercentageGrid[*]","previewValue":""},{"name":"feeAmountGrid","children":[{"name":"feeAmountGrid_string","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeAmountGrid[*]","previewValue":""}],"type":"array.string","jpath":"$.fees.feeStructure[*].feeAmountGrid[*]","previewValue":""},{"name":"loanPercentage","children":[],"type":"string","jpath":"$.fees.feeStructure[*].loanPercentage","previewValue":""},{"name":"feeAmount","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeAmount","previewValue":"1000"},{"name":"transferFee","children":[],"type":"string","jpath":"$.fees.feeStructure[*].transferFee","previewValue":""},{"name":"annualFee","children":[],"type":"string","jpath":"$.fees.feeStructure[*].annualFee","previewValue":""},{"name":"rate","children":[],"type":"string","jpath":"$.fees.feeStructure[*].rate","previewValue":""},{"name":"paymentFrequency","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paymentFrequency","previewValue":"N/A"},{"name":"sourceOfPayment","children":[],"type":"string","jpath":"$.fees.feeStructure[*].sourceOfPayment","previewValue":"N/A"},{"name":"customFee","children":[],"type":"string","jpath":"$.fees.feeStructure[*].customFee","previewValue":""},{"name":"customFeeDescription","children":[],"type":"string","jpath":"$.fees.feeStructure[*].customFeeDescription","previewValue":""},{"name":"feeComment","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeComment","previewValue":""},{"name":"borrowerShare","children":[],"type":"string","jpath":"$.fees.feeStructure[*].borrowerShare","previewValue":""},{"name":"lenderShare","children":[],"type":"string","jpath":"$.fees.feeStructure[*].lenderShare","previewValue":""},{"name":"sellerShare","children":[],"type":"string","jpath":"$.fees.feeStructure[*].sellerShare","previewValue":""},{"name":"waiverComments","children":[],"type":"string","jpath":"$.fees.feeStructure[*].waiverComments","previewValue":""},{"name":"glcode","children":[],"type":"string","jpath":"$.fees.feeStructure[*].glcode","previewValue":"N/A"},{"name":"paidToPayee","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paidToPayee","previewValue":"N/A"},{"name":"paymentMethod","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paymentMethod","previewValue":"Cash"},{"name":"dayBasis","children":[],"type":"string","jpath":"$.fees.feeStructure[*].dayBasis","previewValue":"N/A"},{"name":"proposedLoanAmount","children":[],"type":"string","jpath":"$.fees.feeStructure[*].proposedLoanAmount","previewValue":"5000000"},{"name":"applicationNumber","children":[],"type":"string","jpath":"$.fees.feeStructure[*].applicationNumber","previewValue":"XYZ0000000935"},{"name":"feeGroup","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeGroup","previewValue":"Origination"},{"name":"feeIndividual","children":[],"type":"string","jpath":"$.fees.feeStructure[*].feeIndividual","previewValue":"Application"},{"name":"paidById","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paidById","previewValue":"1000327"},{"name":"glcodeId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].glcodeId","previewValue":""},{"name":"paidToPayeeId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paidToPayeeId","previewValue":""},{"name":"paymentFrequencyId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paymentFrequencyId","previewValue":""},{"name":"dayBasisId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].dayBasisId","previewValue":""},{"name":"paymentMethodId","children":[],"type":"string","jpath":"$.fees.feeStructure[*].paymentMethodId","previewValue":"1000333"}],"type":"object","jpath":"$.fees.feeStructure[*]","previewValue":""}],"type":"array.object","jpath":"$.fees.feeStructure[*]","previewValue":""},{"name":"prepaidAmounts","children":[{"name":"prepaidAmounts_string","children":[],"type":"string","jpath":"$.fees.prepaidAmounts[*]","previewValue":""}],"type":"array.string","jpath":"$.fees.prepaidAmounts[*]","previewValue":""},{"name":"totalFee","children":[],"type":"string","jpath":"$.fees.totalFee","previewValue":"1000"},{"name":"prepaidAmount","children":[],"type":"string","jpath":"$.fees.prepaidAmount","previewValue":"0"},{"name":"remainingFee","children":[],"type":"string","jpath":"$.fees.remainingFee","previewValue":"1000"}],"type":"object","jpath":"$.fees","previewValue":""},{"name":"dynamiccomp","children":[{"name":"REAL_ESTATE","children":[{"name":"realEstateIsCommercial","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstateIsCommercial","previewValue":"Commercial"},{"name":"realEstateOccupancy","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstateOccupancy","previewValue":"Owner"},{"name":"realEstatePropertyType","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstatePropertyType","previewValue":"Multifamily Rental"},{"name":"realEstatePropertySubType","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstatePropertySubType","previewValue":"Multifamily Apartment - Urban Midrise"},{"name":"realEstateProjectType","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstateProjectType","previewValue":"Commercial Land Development Loan (\"D\")"},{"name":"realEstatePropertyAddress","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstatePropertyAddress","previewValue":"459 Herndon Parkway"},{"name":"realEstatePropertyDescription","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstatePropertyDescription","previewValue":""},{"name":"realestatePropertyCity","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realestatePropertyCity","previewValue":"Herndon"},{"name":"realestatePropertyState","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realestatePropertyState","previewValue":"Virginia"},{"name":"realestatePropertyCountry","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realestatePropertyCountry","previewValue":"United States"},{"name":"realestatePropertyZipcode","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realestatePropertyZipcode","previewValue":"20170"},{"name":"companyType","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.companyType","previewValue":"Operating Company"},{"name":"downPayment","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.downPayment","previewValue":"20000000"},{"name":"operatingOwner","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.operatingOwner","previewValue":"{}"},{"name":"realestatePropertyMapCordinates","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realestatePropertyMapCordinates","previewValue":"{\"lat\":38.9578175,\"lng\":-77.37483619999999}"},{"name":"sourcesAndUses","children":[{"name":"sources","children":[{"name":"sources_object","children":[{"name":"reqSourceOfFundsId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*].reqSourceOfFundsId","previewValue":"1000022"},{"name":"colNum","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*].colNum","previewValue":"1"},{"name":"fieldName","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*].fieldName","previewValue":"Applicant Equity"},{"name":"isBase","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*].isBase","previewValue":"false"},{"name":"total","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*].total","previewValue":"5"},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*].perUnitSF","previewValue":"0"},{"name":"percent","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*].percent","previewValue":"0"}],"type":"object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*]","previewValue":""}],"type":"array.object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sources[*]","previewValue":""},{"name":"usesAndMapping","children":[{"name":"usesAndMapping_object","children":[{"name":"use","children":[{"name":"reqUsesOfFundsId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.reqUsesOfFundsId","previewValue":"1000019"},{"name":"rowNum","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.rowNum","previewValue":"1"},{"name":"fieldName","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.fieldName","previewValue":"Refinancing Debts"},{"name":"fundType","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.fundType","previewValue":"Other Costs"},{"name":"isBase","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.isBase","previewValue":"false"},{"name":"total","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.total","previewValue":"1"},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use.perUnitSF","previewValue":"0"}],"type":"object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].use","previewValue":""},{"name":"mapping","children":[{"name":"mapping_object","children":[{"name":"reqSourceUsesMappingId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].reqSourceUsesMappingId","previewValue":"1000047"},{"name":"reqSourceOfFundsId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].reqSourceOfFundsId","previewValue":"1000022"},{"name":"fieldValue","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].fieldValue","previewValue":"1"},{"name":"colNum","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].colNum","previewValue":"1"},{"name":"percent","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].percent","previewValue":"0"},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*].perUnitSF","previewValue":"0"}],"type":"object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*]","previewValue":""}],"type":"array.object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*].mapping[*]","previewValue":""}],"type":"object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*]","previewValue":""}],"type":"array.object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.usesAndMapping[*]","previewValue":""},{"name":"sourcesUsesUnits","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sourcesUsesUnits","previewValue":""},{"name":"sourcesUsesComments","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.sourcesUsesComments","previewValue":""},{"name":"total","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.total","previewValue":"15"},{"name":"totalCost","children":[{"name":"totalCost_string","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.totalCost[*]","previewValue":""}],"type":"array.string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.totalCost[*]","previewValue":""},{"name":"perUnitSF","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.perUnitSF","previewValue":"0"},{"name":"isSourcePercent","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.isSourcePercent","previewValue":"false"},{"name":"isSourcePerUnit","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.isSourcePerUnit","previewValue":"false"},{"name":"ltcValue","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses.ltcValue","previewValue":"3.3333333333333332E7"}],"type":"object","jpath":"$.dynamiccomp.REAL_ESTATE.sourcesAndUses","previewValue":""},{"name":"operatingOwnerValue","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.operatingOwnerValue","previewValue":"N/A"},{"name":"realEstatePropertyTypeId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstatePropertyTypeId","previewValue":"1000050"},{"name":"realEstatePropertySubTypeId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstatePropertySubTypeId","previewValue":"1000052"},{"name":"realestatePropertyStateId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realestatePropertyStateId","previewValue":"1000435"},{"name":"realestatePropertyCountryId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realestatePropertyCountryId","previewValue":"1000383"},{"name":"realEstateProjectTypeId","children":[],"type":"string","jpath":"$.dynamiccomp.REAL_ESTATE.realEstateProjectTypeId","previewValue":"1000040"}],"type":"object","jpath":"$.dynamiccomp.REAL_ESTATE","previewValue":""},{"name":"PARTICIPATION_BALANCE","children":[],"type":"object","jpath":"$.dynamiccomp.PARTICIPATION_BALANCE","previewValue":""},{"name":"COLLATERAL_BBC","children":[{"name":"isBbc","children":[],"type":"string","jpath":"$.dynamiccomp.COLLATERAL_BBC.isBbc","previewValue":""}],"type":"object","jpath":"$.dynamiccomp.COLLATERAL_BBC","previewValue":""}],"type":"object","jpath":"$.dynamiccomp","previewValue":""},{"name":"requestTypeId","children":[],"type":"string","jpath":"$.requestTypeId","previewValue":"1000004"},{"name":"loanPurposeId","children":[],"type":"string","jpath":"$.loanPurposeId","previewValue":"1000017"},{"name":"loanLevel1Id","children":[],"type":"string","jpath":"$.loanLevel1Id","previewValue":"1000087"},{"name":"loanLevel2Id","children":[],"type":"string","jpath":"$.loanLevel2Id","previewValue":"1000090"},{"name":"loanLevel3Id","children":[],"type":"string","jpath":"$.loanLevel3Id","previewValue":""},{"name":"loanStatusId","children":[],"type":"string","jpath":"$.loanStatusId","previewValue":"1000011"},{"name":"loanStatusRef","children":[],"type":"string","jpath":"$.loanStatusRef","previewValue":"INPROCESS"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_323ea663c39dbd109d0a212ad0013191^id=323ea663c39dbd109d0a212ad0013191"/>
+    <sys_element_mapping action="delete_multiple" query="id=323ea663c39dbd109d0a212ad0013191"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>323ea663c39dbd109d0a212ad0013191</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>723ea663c39dbd109d0a212ad001319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>323ea663c39dbd109d0a212ad0013191</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>363ea663c39dbd109d0a212ad001319f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>323ea663c39dbd109d0a212ad0013191</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>be3ea663c39dbd109d0a212ad001319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[63e8c914-67f3-4e57-86c0-9d7ff455e474].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>323ea663c39dbd109d0a212ad0013191</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>fa3ea663c39dbd109d0a212ad001319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=323ea663c39dbd109d0a212ad0013191"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=323ea663c39dbd109d0a212ad0013191"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=323ea663c39dbd109d0a212ad0013191^sys_idNOT IN323ea663c39dbd109d0a212ad0013198"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD3e3ea663939dbd104d64359f6f545e94,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=69370616-8206-4573-a1d6-b7a408381637</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">323ea663c39dbd109d0a212ad0013191</model>
+        <model_id>323ea663c39dbd109d0a212ad0013191</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_323ea663c39dbd109d0a212ad0013191</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:58</sys_created_on>
+        <sys_id>323ea663c39dbd109d0a212ad0013198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=323ea663c39dbd109d0a212ad0013191"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_323ea663c39dbd109d0a212ad0013191^sys_idNOT INfa3ea663c39dbd109d0a212ad001319b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_323ea663c39dbd109d0a212ad0013191</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:58</sys_created_on>
+        <sys_id>fa3ea663c39dbd109d0a212ad001319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</action>
+        <cid>63e8c914-67f3-4e57-86c0-9d7ff455e474</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:18</sys_created_on>
+        <sys_id>884c6eafc35dbd109d0a212ad00131fa</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:09:55</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>004caeafc35dbd109d0a212ad0013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>084caeafc35dbd109d0a212ad0013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Headers">15288f755bd24110ab933520b881c713</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>0c4caeafc35dbd109d0a212ad0013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>https://losdevapi.cyncsoftware.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:58</sys_created_on>
+        <sys_id>2d6c62efc35dbd109d0a212ad0013163</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:09:55</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"Authorization","value":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWFsbSI6Inh5eiIsInJvbGUiOiJBZG1pbkV4Y2VwdFJvbGVzVXNlcnMiLCJ1c2VySWQiOjQsInVzZXJuYW1lIjo0LCJsYXN0TG9naW4iOiIyMDIzLTA5LTIxVDIwOjUwOjE0LjAwMFoiLCJwZXJtaXNzaW9ucyI6WyJjcmVhdGVfcGVyaW9kIiwiZWRpdF9wZXJpb2QiLCJkZWxldGVfcGVyaW9kIiwiY3JlYXRlX2RlYnRzIiwidmlld19kZWJ0cyIsImVkaXRfZGVidHMiLCJkZWxldGVfZGVidHMiLCJjcmVhdGVfY29tbWVudCIsInZpZXdfY29tbWVudHMiLCJlZGl0X2NvbW1lbnRzIiwiZGVsZXRlX2NvbW1lbnRzIiwicnJfY3JlYXRlX2dyb3VwIiwicnJfdmlld19ncm91cHMiLCJycl9lZGl0X2dyb3VwIiwicnJfZGVsZXRlX2dyb3VwIiwicnJfY3JlYXRlX2F0dHJpYnV0ZSIsInJyX3ZpZXdfYXR0cmlidXRlcyIsInJyX2VkaXRfYXR0cmlidXRlIiwicnJfZGVsZXRlX2F0dHJpYnV0ZSIsInJyX2RlZmluZV9jYWxjdWxhdGlvbl9sb2dpYyIsInJyX3ZpZXdfY2FsY3VsYXRpb25fbG9naWMiLCJycl9lZGl0X2NhbGN1bGF0aW9uX2xvZ2ljIiwicnJfZGVsZXRlX2NhbGN1bGF0aW9uX2xvZ2ljIiwicnJfY3JlYXRlX3Njb3JlIiwiY3JlYXRlX2N1c3RvbV90ZW1wbGF0ZSIsImNyZWF0ZV9lbnRpdHkiLCJ2aWV3X2VudGl0aWVzIiwiZWRpdF9lbnRpdHkiLCJkZWxldGVfZW50aXR5IiwiY3JlYXRlX3JlbGF0aW9uc2hpcCIsInJyX3ZpZXdfc2NvcmUiLCJycl9lZGl0X3Njb3JlIiwicnJfZGVsZXRlX3Njb3JlIiwicnJfYXJjaGl2ZV9tb2RlbCIsInJyX2RlbGV0ZV9tb2RlbCIsInJyX292ZXJyaWRlX3Njb3JlIiwicnJfdmlld190ZW1wbGF0ZXMiLCJycl9jcmVhdGVfdGVtcGxhdGUiLCJycl9lZGl0X3RlbXBsYXRlIiwicnJfZGVsZXRlX3RlbXBsYXRlIiwidmlld19jdXN0b21fdGVtcGxhdGUiLCJlZGl0X2N1c3RvbV90ZW1wbGF0ZSIsImRlbGV0ZV9jdXN0b21fdGVtcGxhdGUiLCJjcmVhdGVfcmVxdWVzdCIsInZpZXdfcmVxdWVzdCIsImVkaXRfcmVxdWVzdCIsImRlbGV0ZV9yZXF1ZXN0Iiwid2l0aGRyYXdfcmVxdWVzdCIsImNyZWF0ZV9ib3Jyb3dpbmdfc3RydWN0dXJlIiwidmlld19ib3Jyb3dpbmdfc3RydWN0dXJlIiwiZWRpdF9ib3Jyb3dpbmdfc3RydWN0dXJlIiwiZGVsZXRlX2JvcnJvd2luZ19zdHJ1Y3R1cmUiLCJjcmVhdGVfZmVlcyIsInZpZXdfZmVlcyIsImVkaXRfZmVlcyIsImRlbGV0ZV9mZWVzIiwidmlld193aXRoZHJhdyIsImVkaXRfd2l0aGRyYXciLCJyZWFjdGl2YXRlX3JlcXVlc3QiLCJjb2xsX2NyZWF0ZV9zdWJfdHlwZSIsImNvbGxfdmlld19zdWJfdHlwZSIsImNvbGxfZWRpdF9zdWJfdHlwZSIsImNvbGxfZGVsZXRlX3N1Yl90eXBlIiwiY29sbF9jcmVhdGVfcmVjb3JkIiwiY29sbF92aWV3X3JlY29yZCIsImNvbGxfZWRpdF9yZWNvcmQiLCJjb2xsX2RlbGV0ZV9yZWNvcmQiLCJjb2xsX2NyZWF0ZV9wbGVkZ2UiLCJjb2xsX2VkaXRfcGxlZGdlIiwiY29sbF9kZWxldGVfcGxlZGdlIiwidmlld19hcHByb3ZlciIsImNyZWF0ZV9hcHByb3ZlciIsImVkaXRfYXBwcm92ZXIiLCJkZWxldGVfYXBwcm92ZXIiLCJ2aWV3X2FwcHJvdmFsX3dvcmtmbG93IiwicnJfY3JlYXRlX21vZGVsIiwiZm1fdWYiLCJmbV92ZiIsImZtX2R3ZiIsImZtX2RmIiwiZXhfdndfdHAiLCJleF9jcl90cCIsImV4X2VkX3RwIiwiZXhfZHRfdHAiLCJleF92dyIsImNyZWF0ZV9hcHByb3ZhbF93b3JrZmxvdyIsImVkaXRfYXBwcm92YWxfd29ya2Zsb3ciLCJkZWxldGVfYXBwcm92YWxfd29ya2Zsb3ciLCJsY191cF9zdGciLCJsY19zYl9hcHIiLCJsY192dyIsImxjX2NyIiwibGNfZWQiLCJsY19kbCIsInZpZXdfbG9hbnBpcGVsaW5lIiwiYXNzaWduX3VzZXJfbG9hbnBpcGVsaW5lIiwicmVtb3ZlX3VzZXJfbG9hbnBpcGVsaW5lIiwidmlld19leHBvc3VyZSIsImVkaXRfZXhwb3N1cmUiLCJjdl92YyIsImN2X2NjIiwiY3ZfZWMiLCJjdl9kYyIsImN2X3ZzIiwiY3ZfY3MiLCJjdl9lcyIsImN2X2RzIiwiY3ZfdmUiLCJjdl9jZSIsImN2X2VlIiwiY3ZfZGUiLCJjdl9lY2UiLCJjYV9jdCIsImNhX3Z0IiwiY2FfZXQiLCJjYV9kdCIsImNhX2NhIiwiY2FfdmEiLCJjYV9lYSIsImNhX2RhIiwiY2FfY2YiLCJleF9jciIsImV4X2VkIiwiZXhfZHQiLCJhZF92d190cCIsImFkX2NyX3RwIiwiYWRfZWRfdHAiLCJhZF92d19hdCIsImFkX2NyX2F0IiwiYWRfZWRfYXQiLCJhZF9kdF9hdCIsImFkX3Z3X2dyIiwiYWRfY3JfZ3IiLCJhZF9lZF9nciIsImFkX2R0X2dyIiwiYWRfZGVmX2NsIiwiYWRfdndfbWwiLCJhZF9jcl9tbCIsImNhX3ZmIiwiY2FfZWYiLCJjYV9kZiIsImNhX2NnIiwiY2FfdmciLCJjYV9lZyIsImNhX2RnIiwiY2FfY20iLCJjYV92bSIsImNhX2VtIiwiY2FfZG0iLCJjYV9jYyIsImNhX3ZjIiwiY2FfZWMiLCJjYV9kYyIsImV4X2NzIiwiZXhfdnMiLCJleF9lcyIsImV4X2RzIiwiZXhfY2UiLCJleF92ZSIsImV4X2VlIiwiZXhfZGUiLCJycl9jYyIsInJyX3ZjIiwicnJfdWMiLCJycl9kYyIsInNwX21wX2NyIiwic3BfbXBfZXQiLCJzcF9tcF9kdCIsImNtX2N0IiwiY21fdnQiLCJjbV9ldCIsImNtX2R0IiwiY21fY20iLCJjbV92bSIsImNtX2VtIiwiY21fZG0iLCJjb2xsX3ZpZXdfcGxlZGdlIiwiY3JwX2NyIiwic3BfbHBfdnciLCJzcF9scF9ldCIsIm5mX2VkX3ByIiwibG5fY28iLCJsbl92dHAiLCJsbl9jdHAiLCJsbl9kdHAiLCJsbl9ldHAiLCJ2aWV3X3JlbGF0aW9uc2hpcHMiLCJlZGl0X3JlbGF0aW9uc2hpcCIsImRlbGV0ZV9yZWxhdGlvbnNoaXAiLCJycl92aWV3X21vZGVsIiwicnJfZWRpdF9tb2RlbCIsImFzc2lnbl90ZW1wbGF0ZSIsInZpZXdfc3ByZWFkcyIsImVkaXRfc3ByZWFkcyIsImV4cG9ydF9zcHJlYWRzIiwibG5faHN0IiwiZm1fY2QiLCJmbV92ZCIsImZtX2VkIiwiZm1fZGQiLCJmbV9hZiIsImZtX3JmIiwiZm1fdmZ5IiwiZm1fZXVmIiwiZm1fZWR3ZiIsImZtX2V2ZiIsImZtX2VkZiIsInNwX3JjX2NjciIsInNwX3JjX3ZjciIsInNwX3JjX2VjciIsInNwX3JjX2RjciIsInNwX2NjciIsInNwX3ZjciIsInNwX2VjciIsInNwX2RjciIsImNkdF92dyIsImFkX3RtX2NyIiwiYWRfdG1fZWQiLCJhZF90bV92dyIsInNwX3JtYV9jciIsInNwX3JtYV92dyIsInNwX3JtYV9lZCIsInNwX3JtYV9kdCIsImVuX3Z3X2NwciIsImVuX3Z3X3dpX3NnIiwiZW5fY3Jfd2lfc2ciLCJlbl9lZF93aV9zZyIsImVuX2R0X3dpX3NnIiwiZW5fYXBfd2kiLCJlbl9sdl9jciIsImVuX2x2X3Z3IiwiZW5fbHZfZWQiLCJlbl9sdl9kdCIsInJyX292ZXJyaWRlX21vZGVsIiwidGxfdnciLCJpZl92d19mbHciLCJpZl92d19pdG0iLCJpZl92d19jbXAiLCJpZl9jcl9mbHdtIiwiaWZfY3JfZmx3IiwiaWZfY3JfaXRtIiwiaWZfY3JfY21wIiwiaWZfZWRfZmx3IiwiaWZfZWRfaXRtIiwiaWZfZWRfY21wIiwiaWZfZHRfZmx3IiwiaWZfZHRfaXRtIiwiaWZfZHRfZmx3bSIsImlmX2R0X2NtcCIsImxuX3Z3X2NwIiwibG5fY3JfY3AiLCJsbl9lZF9jcCIsInZpZXdfdXNlcnMiLCJ2aWV3X3JvbGVzIiwiZmxleF9jdCIsImZsZXhfdnQiLCJmbGV4X3V0IiwiZmxleF9kdCIsImZsZXhfY3IiLCJmbGV4X3ZyIiwiZmxleF91ciIsImZsZXhfZHIiLCJhbl92d19jcCIsImFuX2NyX2NwIiwiYW5fZWRfY3AiLCJhbl9kdF9jcCIsImxpc3RfdXNlcnMiLCJsaXN0X3JvbGVzIiwidmlld19teWRhdGEiLCJsaXN0X2N1c3RvbV90ZW1wbGF0ZXMiLCJsaXN0X2VudGl0aWVzIiwiY2FfbHQiLCJlbl9sdl92d19saXN0Il0sImlhdCI6MTY5NTMyOTQxNCwiZXhwIjoxNzk1MzMwMzEzLCJpc3MiOiJjeW5jLWxvcyJ9.nbHwjLxKlSw9q2hUiMCTJo2UmfPenv4AW0N6hKUDxnE"}]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>444caeafc35dbd109d0a212ad0013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value/>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>484caeafc35dbd109d0a212ad0013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>804caeafc35dbd109d0a212ad0013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"type","value":"pricing,generalinformation,other,sourcesanduses,borrowerstructure,compliance,fees,dynamiccomp,approvalconditions"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>844caeafc35dbd109d0a212ad0013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>c04caeafc35dbd109d0a212ad0013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>/loan/v3/loanrequests/XYZ0000000935/loaninfo</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>884c6eafc35dbd109d0a212ad00131fa</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>cc4caeafc35dbd109d0a212ad0013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_884c6eafc35dbd109d0a212ad00131fa"/>
+    <sys_hub_action_input action="delete_multiple" query="model=307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_hub_action_output action="delete_multiple" query="model=307a2e2fc35dbd109d0a212ad0013120^sys_idNOT IN033ea663c39dbd109d0a212ad00131d8,4f3ea663c39dbd109d0a212ad00131db,796c62efc35dbd109d0a212ad0013167,b96c62efc35dbd109d0a212ad001316c,c73ea663c39dbd109d0a212ad00131a2,c73ea663c39dbd109d0a212ad00131c3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=174486b7-7867-44da-adc1-9db578fa4e42</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>application_number</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Application Number</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</model>
+        <model_id>307a2e2fc35dbd109d0a212ad0013120</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>033ea663c39dbd109d0a212ad00131d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=033ea663c39dbd109d0a212ad00131d8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=033ea663c39dbd109d0a212ad00131d8"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=74fa21fd-854a-47bb-88fb-567f77b7aeab</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>loan_name</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Loan Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</model>
+        <model_id>307a2e2fc35dbd109d0a212ad0013120</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>4f3ea663c39dbd109d0a212ad00131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4f3ea663c39dbd109d0a212ad00131db"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4f3ea663c39dbd109d0a212ad00131db"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=83466691-b35a-4e4d-96c5-458cc131cce2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</model>
+        <model_id>307a2e2fc35dbd109d0a212ad0013120</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:58</sys_created_on>
+        <sys_id>796c62efc35dbd109d0a212ad0013167</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=796c62efc35dbd109d0a212ad0013167"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=796c62efc35dbd109d0a212ad0013167"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=73d2d3f4-45da-4ea6-a961-2b307d1563be,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</model>
+        <model_id>307a2e2fc35dbd109d0a212ad0013120</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:58</sys_created_on>
+        <sys_id>b96c62efc35dbd109d0a212ad001316c</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:25:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b96c62efc35dbd109d0a212ad001316c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b96c62efc35dbd109d0a212ad001316c"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=3137ebbf-bfc4-4bae-abac-99eede3e496f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>loan_request_id</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Loan Request Id</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</model>
+        <model_id>307a2e2fc35dbd109d0a212ad0013120</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>c73ea663c39dbd109d0a212ad00131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c73ea663c39dbd109d0a212ad00131a2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c73ea663c39dbd109d0a212ad00131a2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=abd6a718-2cfa-4274-be1a-9d99bb87573c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>loan_source</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Loan Source</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</model>
+        <model_id>307a2e2fc35dbd109d0a212ad0013120</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>c73ea663c39dbd109d0a212ad00131c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c73ea663c39dbd109d0a212ad00131c3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c73ea663c39dbd109d0a212ad00131c3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=307a2e2fc35dbd109d0a212ad0013120^sys_idNOT INcc4caeafc35dbd109d0a212ad001312e"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get Loan Details">307a2e2fc35dbd109d0a212ad0013120</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:19</sys_created_on>
+        <sys_id>cc4caeafc35dbd109d0a212ad001312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:19</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=cc4caeafc35dbd109d0a212ad001312e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120^sys_idNOT IN473ea663c39dbd109d0a212ad00131c6,873ea663c39dbd109d0a212ad00131bf,8f3ea663c39dbd109d0a212ad00131da,cb3ea663c39dbd109d0a212ad00131de,f16c62efc35dbd109d0a212ad001317e,f96c62efc35dbd109d0a212ad001316b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>loan_source</element>
+        <help/>
+        <hint/>
+        <label>Loan Source</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>473ea663c39dbd109d0a212ad00131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>loan_request_id</element>
+        <help/>
+        <hint/>
+        <label>Loan Request Id</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>873ea663c39dbd109d0a212ad00131bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>application_number</element>
+        <help/>
+        <hint/>
+        <label>Application Number</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>8f3ea663c39dbd109d0a212ad00131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>loan_name</element>
+        <help/>
+        <hint/>
+        <label>Loan Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:14:59</sys_created_on>
+        <sys_id>cb3ea663c39dbd109d0a212ad00131de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:14:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:59</sys_created_on>
+        <sys_id>f16c62efc35dbd109d0a212ad001317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 21:06:58</sys_created_on>
+        <sys_id>f96c62efc35dbd109d0a212ad001316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 21:06:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_307a2e2fc35dbd109d0a212ad0013120"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=307a2e2fc35dbd109d0a212ad0013120"/>
+</record_update>

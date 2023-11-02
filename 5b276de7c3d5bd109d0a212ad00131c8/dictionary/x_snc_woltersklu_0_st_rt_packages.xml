@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ef4f757c474afd10eb3b7562846d43f4" label="RT Packages" max_length="40" name="x_snc_woltersklu_0_st_rt_packages" type="collection">
+        <element label="Account ID" max_length="40" name="account_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Package ID" max_length="40" name="package_id" type="string"/>
+        <element label="Package Name" max_length="100" name="package_name" type="string"/>
+    </element>
+</database>

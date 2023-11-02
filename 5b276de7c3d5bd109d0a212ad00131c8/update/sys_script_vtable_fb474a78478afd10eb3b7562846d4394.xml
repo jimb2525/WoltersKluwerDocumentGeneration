@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_vtable">
+    <sys_script_vtable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <cache_isolation_level>USER</cache_isolation_level>
+        <cache_strategy>CACHE_BY_QUERY</cache_strategy>
+        <cache_ttl>0</cache_ttl>
+        <name>RT Get Packages</name>
+        <script><![CDATA[(function executeQuery(v_table, v_query) {
+    // Main API:
+    //    v_table.addRow({ ... }) - adds a row to the result set
+    
+    // There are also query helper methods
+    //    v_query.getEncodedQuery() - returns encoded querystring
+    //    v_query.getCondition(field) - returns encoded querystring for the given field (includes field name, operator, and value)
+    //    v_query.getParameter(field) - returns parameter for the given field (only includes value for equality conditions)
+    //    v_query.isGet() - returns whether the query is a single get by sys_id
+    //    v_query.getSysId() - returns parameter for sys_id field
+    //    v_query.isTextSearch() - returns whether the query contains a text query parameter
+    //    v_query.getTextSearch() - returns text search query parameter (internal field name 123TEXTQUERY321)
+    //    v_query.getFirstRowWanted() - returns the first row to include
+    //    v_query.getLastRowWanted() - returns the last row to include
+  
+    // Note: You must define sys_id for each row so that forms and lists for this table work properly
+     
+    // Your code goes here
+    // v_table.addRow({...})
+
+	try {
+		var inputs = {};
+		inputs['bearer_token'] = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjgwMDYwNEFEOTcxOTI4NzdGNUMyM0IzMURFRDU4MzA2OEI1QzE5QjFSUzI1NiIsIng1dCI6ImdBWUVyWmNaS0hmMXdqc3gzdFdEQm90Y0diRSIsInR5cCI6ImF0K2p3dCJ9.eyJpc3MiOiJodHRwczovL2N0LWFkbWluLndvbHRlcnNrbHV3ZXJmcy5jb20vU1RTIiwibmJmIjoxNjk4NDI3ODE3LCJpYXQiOjE2OTg0Mjc4MTcsImV4cCI6MTY5ODQzMTQxNywiYXVkIjpbIndrLWRncy1jb3JlIiwid2stZXpjZmctZGVmLWRhdGEtcmVhZCIsIndrLmV6Y2ZnLmRlZi5kYXRhIiwid2stZXpjZmctcGtnLXBrdC1yZWFkIiwid2suZXpjZmcucGtnLnBrdCIsImh0dHBzOi8vY3QtYWRtaW4ud29sdGVyc2tsdXdlcmZzLmNvbS9TVFMvcmVzb3VyY2VzIl0sInNjb3BlIjpbIndrLWRncy1jb3JlLXJlYWQiLCJ3ay1kZ3MtY29yZS13cml0ZSIsIndrLWV6Y2ZnLWRlZi1kYXRhLXJlYWQiLCJ3ay1lemNmZy1wa2ctcGt0LXJlYWQiXSwiY2xpZW50X2lkIjoiMTA2NzEuQ3luYyBMT1MuMTAwMTA4NTk2LkFjY291bnRDbGllbnQuMSIsImFjY291bnQtaWQiOiIxMDY3MSIsImFjY291bnQtdW5pcXVlaWQiOiIxNzdjZTI2YS05ZGJlLTQwMTgtYWIyOC1jMmQ3YjUxYzMzNjkiLCJqdGkiOiJERTlCM0FGOTZEMTAzRUFDQjc0RUE2QzBBM0Q4NTA5RCJ9.FNX8jrFdutcqvzbB4-HhkIrEpo7Y2gwn5OHUl4LZ6tHU3B3py10nIqcijc5QxfsX1CIx8uMy-mW4OSJeUoYJIJbRGXNrIXi0yB9HTSqnqCvBQeJLSY4G-H8EX3nMPcW34bF1fFlYbMCClGQw06UpP3jyLom3_Fud35d-ymYBfiJaOBO1xxkRvUpIAbTSsBivxjPHKEQzl8bItzdZqpEsfscaMGRCIW75aTQbhQgSA4SDDr6WiIX4bhSvxEKZ7-_L_8ycBEjkmKnhUUKrIP0ItaVXJWFjRJemF8om81AVF3KkRlw75ChpcNFM_NNVFBNKWbMm-Mpvvr_W8UDR370_ew'; // String 
+
+		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+		// sn_fd.FlowAPI.getRunner().subflow('x_snc_woltersklu_0.get_packages_subflow').inBackground().withInputs(inputs).run();
+				
+		// Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+		var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_woltersklu_0.get_packages_subflow').inForeground().withInputs(inputs).run();
+		var outputs = result.getOutputs();
+
+		// Get Outputs:
+		// Note: outputs can only be retrieved when executing synchronously.
+		var package_name = outputs['package_name']; // String
+		var content_package_id = outputs['content_package_id']; // String
+		var alias_short_name = outputs['alias_short_name']; // String
+		var package_id = outputs['package_id']; // String
+
+		v_table.addRow(outputs);
+		
+	} catch (ex) {
+		var message = ex.getMessage();
+		gs.error(message);
+	}
+
+
+  })(v_table, v_query);]]></script>
+        <sys_class_name>sys_script_vtable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-20 12:09:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fb474a78478afd10eb3b7562846d4394</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>RT Get Packages</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_script_vtable_fb474a78478afd10eb3b7562846d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-27 17:38:08</sys_updated_on>
+        <table>x_snc_woltersklu_0_st_rt_packages</table>
+    </sys_script_vtable>
+</record_update>

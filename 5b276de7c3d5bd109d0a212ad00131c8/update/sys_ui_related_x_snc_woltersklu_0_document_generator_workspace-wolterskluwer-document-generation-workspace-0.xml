@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_snc_woltersklu_0_document_generator" version="2" view="workspace-wolterskluwer-document-generation-workspace-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Document Generator - Workspace WoltersKluwer Document Generation Workspace 0" name="x_snc_woltersklu_0_document_generator" related_list="NULL" sys_domain="global" view="81f80e6b0399bd1003671dd42f64827c">a06a0e2fc399bd109d0a212ad0013127</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_snc_woltersklu_0_organization.document</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-21 18:38:21</sys_created_on>
+            <sys_id>e06a0e2fc399bd109d0a212ad00131bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-21 18:38:21</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Document Generator - Workspace WoltersKluwer Document Generation Workspace 0" name="x_snc_woltersklu_0_document_generator" related_list="NULL" sys_domain="global" view="81f80e6b0399bd1003671dd42f64827c">a06a0e2fc399bd109d0a212ad0013127</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_snc_woltersklu_0_packages.document</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-21 18:38:21</sys_created_on>
+            <sys_id>e46a0e2fc399bd109d0a212ad00131bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-21 18:38:21</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Document Generator - Workspace WoltersKluwer Document Generation Workspace 0</calculated_name>
+            <filter/>
+            <name>x_snc_woltersklu_0_document_generator</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-21 18:38:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a06a0e2fc399bd109d0a212ad0013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Document Generator - Workspace WoltersKluwer Document Generation Workspace 0</sys_name>
+            <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+            <sys_update_name>sys_ui_related_x_snc_woltersklu_0_document_generator_workspace-wolterskluwer-document-generation-workspace-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-21 18:38:21</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace WoltersKluwer Document Generation Workspace 0" name="workspace-wolterskluwer-document-generation-workspace-0">81f80e6b0399bd1003671dd42f64827c</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

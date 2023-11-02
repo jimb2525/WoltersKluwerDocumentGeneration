@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>grant_type=client_credentials&amp;client_id=10671.Cync%20LOS.100108596.AccountClient.1&amp;scope=wk-dgs-core-read%20wk-dgs-core-write%20wk-ezcfg-def-data-read%20wk-ezcfg-pkg-pkt-read&#13;
+</content>
+        <function_name>POST</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Get Bearer token [ POST ]</qualified_name>
+        <rest_endpoint/>
+        <rest_message display_value="Get Bearer token">11a7620cc35e71909d0a212ad001316b</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-30 16:57:59</sys_created_on>
+        <sys_id>a458ae0cc35e71909d0a212ad001316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>POST</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_rest_message_fn_a458ae0cc35e71909d0a212ad001316e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-30 16:57:59</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

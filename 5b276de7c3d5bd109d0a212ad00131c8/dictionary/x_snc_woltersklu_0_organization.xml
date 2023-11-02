@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="93ae6963c319bd109d0a212ad001318a" label="Organization" max_length="40" name="x_snc_woltersklu_0_organization" type="collection">
+        <element label="Alias" max_length="40" name="alias" type="string"/>
+        <element label="Document" max_length="32" name="document" reference="x_snc_woltersklu_0_document_generator" type="reference"/>
+        <element label="Line of Business" max_length="40" name="line_of_business" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Organization ID" max_length="40" name="organization_id" type="string"/>
+        <element display="true" label="Organization Name" max_length="40" name="organization_name" type="string"/>
+        <index name="index">
+            <element name="document"/>
+        </index>
+    </element>
+</database>

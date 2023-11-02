@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="eacfe5e3c319bd109d0a212ad00131a2" label="Packages" max_length="40" name="x_snc_woltersklu_0_packages" type="collection">
+        <element label="Account ID" max_length="40" name="account_id" type="string"/>
+        <element label="Alias Short Name" max_length="100" name="alias_short_name" type="string"/>
+        <element label="Content Package ID" max_length="100" name="content_package_id" type="string"/>
+        <element label="Document" max_length="32" name="document" reference="x_snc_woltersklu_0_document_generator" type="reference"/>
+        <element label="Documents" max_length="200" name="documents" type="string"/>
+        <element label="Last Updated" max_length="40" name="last_updated" type="glide_date"/>
+        <element label="Last Updated By" max_length="100" name="last_updated_by" type="string"/>
+        <element label="Line of Business" max_length="100" name="line_of_business" type="string"/>
+        <element label="Line of Business ID" max_length="40" name="line_of_business_id" type="string"/>
+        <element label="Logo On" max_length="40" name="logo_on" type="boolean"/>
+        <element label="Metadata" max_length="200" name="metadata" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Package ID" max_length="40" name="package_id" type="string"/>
+        <element display="true" label="Package Name" max_length="100" name="package_name" type="string"/>
+        <element label="Packets" max_length="200" name="packets" type="string"/>
+        <element label="Status" max_length="40" name="status" type="boolean"/>
+        <index name="index">
+            <element name="document"/>
+        </index>
+    </element>
+</database>

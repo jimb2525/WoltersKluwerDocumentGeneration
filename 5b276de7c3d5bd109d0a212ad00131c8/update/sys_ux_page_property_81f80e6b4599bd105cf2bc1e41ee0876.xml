@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="WoltersKluwer Document Generation Workspace">09f80e6b5d99bd105f49b6de58d69486</page>
+        <required_translations>[ {
+  "message" : "New Document Generator",
+  "comment" : ""
+}, {
+  "message" : "New Organization",
+  "comment" : ""
+}, {
+  "message" : "New Packages",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 18:32:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>81f80e6b4599bd105cf2bc1e41ee0876</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_ux_page_property_81f80e6b4599bd105cf2bc1e41ee0876</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 18:32:12</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_woltersklu_0.09f80e6b5d99bd105f49b6de58d69486.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Document Generator"},"routeInfo":{"route":"record","fields":{"table":"x_snc_woltersklu_0_document_generator","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_woltersklu_0_document_generator","canCreate":true}}},{"label":{"translatable":true,"message":"New Packages"},"routeInfo":{"route":"record","fields":{"table":"x_snc_woltersklu_0_packages","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_woltersklu_0_packages","canCreate":true}}},{"label":{"translatable":true,"message":"New Organization"},"routeInfo":{"route":"record","fields":{"table":"x_snc_woltersklu_0_organization","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_snc_woltersklu_0_organization","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=81f80e6b4599bd105cf2bc1e41ee0876"/>
+</record_update>

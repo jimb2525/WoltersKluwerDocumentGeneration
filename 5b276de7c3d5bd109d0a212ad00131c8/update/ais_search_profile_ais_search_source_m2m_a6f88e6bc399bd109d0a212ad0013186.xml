@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="wolterskluwer-document-generation-workspace Search Profile">89f80e6b7799bd10a38a02502f9fd685</profile>
+        <search_source display_value="Document Generator">a6f88e6bc399bd109d0a212ad0013183</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 18:32:12</sys_created_on>
+        <sys_id>a6f88e6bc399bd109d0a212ad0013186</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wolterskluwer-document-generation-workspace Search Profile.Document Generator</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_a6f88e6bc399bd109d0a212ad0013186</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 18:32:12</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

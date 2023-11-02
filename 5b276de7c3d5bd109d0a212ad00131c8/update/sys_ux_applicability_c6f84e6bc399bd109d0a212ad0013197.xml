@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_applicability">
+    <sys_ux_applicability action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <api_name>x_snc_woltersklu_0.Audience for app wolterskluwer-document-generation-workspace</api_name>
+        <description/>
+        <name>Audience for app wolterskluwer-document-generation-workspace</name>
+        <role_names/>
+        <roles>d7276de7c3d5bd109d0a212ad00131e2,13276de7c3d5bd109d0a212ad00131d1,9b276de7c3d5bd109d0a212ad00131e5</roles>
+        <sys_class_name>sys_ux_applicability</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 18:32:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c6f84e6bc399bd109d0a212ad0013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Audience for app wolterskluwer-document-generation-workspace</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_ux_applicability_c6f84e6bc399bd109d0a212ad0013197</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 18:32:10</sys_updated_on>
+    </sys_ux_applicability>
+</record_update>

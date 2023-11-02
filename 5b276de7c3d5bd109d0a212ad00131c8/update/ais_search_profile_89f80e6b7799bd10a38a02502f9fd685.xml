@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for WoltersKluwer Document Generation Workspace</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>wolterskluwer-document-generation-workspace Search Profile</label>
+        <name>x_snc_woltersklu_0_bijtpzki_search_profile</name>
+        <publish_id>5c536aa1-f708-48cb-a894-b706ea6d96c5</publish_id>
+        <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-21 18:32:07</sys_created_on>
+        <sys_id>89f80e6b7799bd10a38a02502f9fd685</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>wolterskluwer-document-generation-workspace Search Profile</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>ais_search_profile_89f80e6b7799bd10a38a02502f9fd685</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-21 20:22:48</sys_updated_on>
+    </ais_search_profile>
+</record_update>
