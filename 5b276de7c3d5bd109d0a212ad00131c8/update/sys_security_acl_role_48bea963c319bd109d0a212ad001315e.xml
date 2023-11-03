@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2023-09-21 16:37:21</sys_updated_on>
         <sys_user_role display_value="x_snc_woltersklu_0.admin" name="x_snc_woltersklu_0.admin">d7276de7c3d5bd109d0a212ad00131e2</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>
