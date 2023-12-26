@@ -1,0 +1,2500 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=18878000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_and_generate_document_page</internal_name>
+        <label_cache>[{"name":"subflow.package_alias","label":"Input➛Package Alias","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"200e063d-8725-4b90-934c-ad91f323200e"}},{"name":"subflow.product","label":"Input➛Product","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c7c5448c-0414-47de-b1fe-5eec9bd63974"}},{"name":"c3378683-9680-49b6-b63c-85c09da0493a.payload.swt","label":"5 - Copy of Begin Session➛Payload➛swt","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"c3378683-9680-49b6-b63c-85c09da0493a.payload.sessionId","label":"5 - Copy of Begin Session➛Payload➛sessionId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"c3378683-9680-49b6-b63c-85c09da0493a.payload.redirectUrl","label":"5 - Copy of Begin Session➛Payload➛redirectUrl","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"e48fcc8d-33fd-44e0-97f2-00bdd71c1593.bearer_token","label":"1 - Get Bearer Token➛Bearer Token","reference_display":"Bearer Token","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e4a1c3e4-6b13-44d8-aa67-3132a618090a"}},{"name":"subflow.organzation","label":"Input➛Organzation","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6ec15662-a242-409c-875b-a13831ac7c5b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7daafd77-8233-418c-8232-e061799fca29.Record.organization_id","label":"2 - Look Up Record➛Organization Record➛Organization ID","reference":"","reference_display":"Organization ID","type":"string","base_type":"string","parent_table_name":"x_snc_woltersklu_0_organization","column_name":"organization_id"},{"name":"74f3b646-7764-4daa-af36-9c81f03d84c5.Record.product_id","label":"3 - Look Up Record➛Products Record➛Product ID","reference":"","reference_display":"Product ID","type":"string","base_type":"string","parent_table_name":"x_snc_woltersklu_0_products","column_name":"product_id"},{"name":"e0614d4d-7403-4c6a-8265-bcca9b751b3d.variable.transactionXml","label":"4 - Update Transaction➛Payload➛transactionXml","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"64c8c4f0-eb52-4bfc-84d1-e7b905b8667d.variable","label":"5 - Sanitize XML Cluwer➛OPxml","reference_display":"OPxml","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ff609b00-5773-4466-a0d4-d381ac7903b0"}},{"name":"subflow.package","label":"Input➛Package","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c42f881e-ab3a-41f3-86ae-8a3ea6dc2d43","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master_snapshot>a93d1541477af950e109fd69e16d432f</master_snapshot>
+        <name>Update and Generate Document Page</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:26:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>244c5101477af950e109fd69e16d431c</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Update and Generate Document Page</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_hub_flow_244c5101477af950e109fd69e16d431c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:45</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=244c5101477af950e109fd69e16d431c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=244c5101477af950e109fd69e16d431c"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c^id=244c5101477af950e109fd69e16d431c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=244c5101477af950e109fd69e16d431c"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=244c5101477af950e109fd69e16d431c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=244c5101477af950e109fd69e16d431c^sys_idNOT IN244c5101477af950e109fd69e16d431e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>244c5101477af950e109fd69e16d431c</id>
+        <name>Update and Generate Document Page</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:26:12</sys_created_on>
+        <sys_id>244c5101477af950e109fd69e16d431e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:26:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=244c5101477af950e109fd69e16d431e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=244c5101477af950e109fd69e16d431c^sys_idNOT IN272dd141477af950e109fd69e16d4341,3b2dd141477af950e109fd69e16d4348,9c44aa41477ef950e109fd69e16d43b5"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c7c5448c-0414-47de-b1fe-5eec9bd63974</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>product</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Product</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</model>
+        <model_id>244c5101477af950e109fd69e16d431c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:14</sys_created_on>
+        <sys_id>272dd141477af950e109fd69e16d4341</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:40:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=272dd141477af950e109fd69e16d4341"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6ec15662-a242-409c-875b-a13831ac7c5b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>organzation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Organzation</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</model>
+        <model_id>244c5101477af950e109fd69e16d431c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:15</sys_created_on>
+        <sys_id>3b2dd141477af950e109fd69e16d4348</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:40:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3b2dd141477af950e109fd69e16d4348"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c42f881e-ab3a-41f3-86ae-8a3ea6dc2d43</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>package</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Package</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</model>
+        <model_id>244c5101477af950e109fd69e16d431c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 15:40:45</sys_created_on>
+        <sys_id>9c44aa41477ef950e109fd69e16d43b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:40:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9c44aa41477ef950e109fd69e16d43b5"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=244c5101477af950e109fd69e16d431c^sys_idNOT IN72eedd81477af950e109fd69e16d43da,772dd141477af950e109fd69e16d4366,e6eedd81477af950e109fd69e16d43d6"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=88f4994e-c824-49b1-aafa-99503b17372d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>swt</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SWT</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</model>
+        <model_id>244c5101477af950e109fd69e16d431c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:49</sys_created_on>
+        <sys_id>72eedd81477af950e109fd69e16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=72eedd81477af950e109fd69e16d43da"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cc1fd3a0-85b7-49a7-99d6-866b4fe3889c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>URL</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</model>
+        <model_id>244c5101477af950e109fd69e16d431c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:15</sys_created_on>
+        <sys_id>772dd141477af950e109fd69e16d4366</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=772dd141477af950e109fd69e16d4366"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=958dc23d-1e16-449d-bd34-574173602f24</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sessionid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SessionId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</model>
+        <model_id>244c5101477af950e109fd69e16d431c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:49</sys_created_on>
+        <sys_id>e6eedd81477af950e109fd69e16d43d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:49</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e6eedd81477af950e109fd69e16d43d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=244c5101477af950e109fd69e16d431c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=244c5101477af950e109fd69e16d431c^sys_idNOT IN0fa6864547faf950e109fd69e16d431a,203dd141477af950e109fd69e16d4398,8fa6864547faf950e109fd69e16d4324,cc3dd141477af950e109fd69e16d4376,d80556c1473ef950e109fd69e16d4352,d83dd141477af950e109fd69e16d4384"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:30</sys_created_on>
+        <sys_id>0fa6864547faf950e109fd69e16d431a</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:40:46</sys_updated_on>
+        <ui_id>7daafd77-8233-418c-8232-e061799fca29</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0fa6864547faf950e109fd69e16d431a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>0fa6864547faf950e109fd69e16d431a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>87a6864547faf950e109fd69e16d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:31</sys_updated_on>
+        <value>x_snc_woltersklu_0_organization</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0fa6864547faf950e109fd69e16d431a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>0fa6864547faf950e109fd69e16d431a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>4fa6864547faf950e109fd69e16d431c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>organization_name={{subflow.organzation}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>0fa6864547faf950e109fd69e16d431a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>07a6864547faf950e109fd69e16d431d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0fa6864547faf950e109fd69e16d431a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0fa6864547faf950e109fd69e16d431a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy of Begin Session">40081c6447767d5055d70dcfe16d438d</action_type>
+        <action_type_parent display_value="Copy of Begin Session">1b820b9b476a795055d70dcfe16d4398</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:18</sys_created_on>
+        <sys_id>203dd141477af950e109fd69e16d4398</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:40:47</sys_updated_on>
+        <ui_id>c3378683-9680-49b6-b63c-85c09da0493a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=203dd141477af950e109fd69e16d4398"/>
+    <sys_element_mapping action="delete_multiple" query="id=203dd141477af950e109fd69e16d4398"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer_token</field>
+        <id>203dd141477af950e109fd69e16d4398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:18</sys_created_on>
+        <sys_id>283dd141477af950e109fd69e16d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40081c6447767d5055d70dcfe16d438d</table>
+        <value>{{e48fcc8d-33fd-44e0-97f2-00bdd71c1593.bearer_token}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>content_uri</field>
+        <id>203dd141477af950e109fd69e16d4398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 15:21:38</sys_created_on>
+        <sys_id>04ef5a4d473ef950e109fd69e16d43ea</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:40:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40081c6447767d5055d70dcfe16d438d</table>
+        <value>expere://Comm202305/PKG.{{subflow.package}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>transaction_xml</field>
+        <id>203dd141477af950e109fd69e16d4398</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:34:09</sys_created_on>
+        <sys_id>e00556c1473ef950e109fd69e16d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 14:34:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40081c6447767d5055d70dcfe16d438d</table>
+        <value>{{64c8c4f0-eb52-4bfc-84d1-e7b905b8667d.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=203dd141477af950e109fd69e16d4398"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=203dd141477af950e109fd69e16d4398"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>8fa6864547faf950e109fd69e16d4324</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:40:46</sys_updated_on>
+        <ui_id>74f3b646-7764-4daa-af36-9c81f03d84c5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=8fa6864547faf950e109fd69e16d4324"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8fa6864547faf950e109fd69e16d4324</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>4fa6864547faf950e109fd69e16d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:31</sys_updated_on>
+        <value>x_snc_woltersklu_0_products</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>8fa6864547faf950e109fd69e16d4324</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>8ba6864547faf950e109fd69e16d4326</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:18</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=8fa6864547faf950e109fd69e16d4324"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>8fa6864547faf950e109fd69e16d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>47a6864547faf950e109fd69e16d4326</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:18</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>product_name={{subflow.product}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>8fa6864547faf950e109fd69e16d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:31</sys_created_on>
+        <sys_id>0ba6864547faf950e109fd69e16d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8fa6864547faf950e109fd69e16d4324"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8fa6864547faf950e109fd69e16d4324"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Bearer Token">bcb131a7c319bd109d0a212ad0013193</action_type>
+        <action_type_parent display_value="Get Bearer Token">1918e92bc3d5bd109d0a212ad00131fb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:16</sys_created_on>
+        <sys_id>cc3dd141477af950e109fd69e16d4376</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:40:45</sys_updated_on>
+        <ui_id>e48fcc8d-33fd-44e0-97f2-00bdd71c1593</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=cc3dd141477af950e109fd69e16d4376"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=cc3dd141477af950e109fd69e16d4376"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=cc3dd141477af950e109fd69e16d4376"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Sanitize XML Cluwer">1b2fca4d47faf950e109fd69e16d432b</action_type>
+        <action_type_parent display_value="Sanitize XML Cluwer">241e8a0d47faf950e109fd69e16d43d9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:34:08</sys_created_on>
+        <sys_id>d80556c1473ef950e109fd69e16d4352</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:40:47</sys_updated_on>
+        <ui_id>64c8c4f0-eb52-4bfc-84d1-e7b905b8667d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d80556c1473ef950e109fd69e16d4352"/>
+    <sys_element_mapping action="delete_multiple" query="id=d80556c1473ef950e109fd69e16d4352"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>xml</field>
+        <id>d80556c1473ef950e109fd69e16d4352</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:34:09</sys_created_on>
+        <sys_id>e00556c1473ef950e109fd69e16d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 14:34:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2fca4d47faf950e109fd69e16d432b</table>
+        <value>{{e0614d4d-7403-4c6a-8265-bcca9b751b3d.variable.transactionXml}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d80556c1473ef950e109fd69e16d4352"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d80556c1473ef950e109fd69e16d4352"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Transaction">30946b4247eeb150e109fd69e16d43ea</action_type>
+        <action_type_parent display_value="Update Transaction">2a4fbec2476eb150e109fd69e16d4302</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:17</sys_created_on>
+        <sys_id>d83dd141477af950e109fd69e16d4384</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:40:47</sys_updated_on>
+        <ui_id>e0614d4d-7403-4c6a-8265-bcca9b751b3d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d83dd141477af950e109fd69e16d4384"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d83dd141477af950e109fd69e16d4384</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:17</sys_created_on>
+        <sys_id>5c3dd141477af950e109fd69e16d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:17</sys_updated_on>
+        <value/>
+        <variable display_value="Organization Id">0d94ab4247eeb150e109fd69e16d430c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d83dd141477af950e109fd69e16d4384"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer_token</field>
+        <id>d83dd141477af950e109fd69e16d4384</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:17</sys_created_on>
+        <sys_id>183dd141477af950e109fd69e16d4386</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:17</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30946b4247eeb150e109fd69e16d43ea</table>
+        <value>{{e48fcc8d-33fd-44e0-97f2-00bdd71c1593.bearer_token}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>organization_id</field>
+        <id>d83dd141477af950e109fd69e16d4384</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:17</sys_created_on>
+        <sys_id>d83dd141477af950e109fd69e16d4386</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30946b4247eeb150e109fd69e16d43ea</table>
+        <value>{{7daafd77-8233-418c-8232-e061799fca29.Record.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Products</field>
+        <id>d83dd141477af950e109fd69e16d4384</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:17</sys_created_on>
+        <sys_id>503dd141477af950e109fd69e16d4386</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 01:40:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30946b4247eeb150e109fd69e16d43ea</table>
+        <value>{"version":"1.0","complexObject":{"name$":"FDfc94ab4209eeb150d7602587d8deea05","$COCollectionField":["{{fd_transform:1360e431-cc26-44c2-89d5-24192d0ccc56}}"]},"complexObjectSchema":{"FlowDesigner:FDfc94ab4209eeb150d7602587d8deea05":{"$COCollectionField":["Integer"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDfc94ab4209eeb150d7602587d8deea05.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Products\",\"mandatory\":\"false\",\"child_name\":\"Product_Id\",\"uiUniqueId\":\"520fa2b3-9ad3-4f2c-91a1-c8233bdca35b\",\"uiTypeLabel\":\"Array.Integer\",\"co_type_name\":\"FDfc94ab4209eeb150d7602587d8deea05\",\"child_label\":\"Product Id\",\"child_type_label\":\"Integer\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.integer\",\"mapped\":\"{\\\"[0]\\\":\\\"{{fd_transform:1360e431-cc26-44c2-89d5-24192d0ccc56}}\\\"}\",\"child_type\":\"integer\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d408179b-f5e0-4dfa-a90a-cbec16389bca\"}"}},"serializationFormat":"JSON"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d83dd141477af950e109fd69e16d4384"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d83dd141477af950e109fd69e16d4384"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=244c5101477af950e109fd69e16d431c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=244c5101477af950e109fd69e16d431c^sys_idNOT IN43eedd81477af950e109fd69e16d43e6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">87eedd81477af950e109fd69e16d43e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>sessionid,swt,url</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:51</sys_created_on>
+        <sys_id>43eedd81477af950e109fd69e16d43e6</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:44</sys_updated_on>
+        <ui_id>9fc05a89-cb58-4b14-ba17-7d0370064b44</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=43eedd81477af950e109fd69e16d43e6"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_244c5101477af950e109fd69e16d431c^id=43eedd81477af950e109fd69e16d43e6"/>
+    <sys_element_mapping action="delete_multiple" query="id=43eedd81477af950e109fd69e16d43e6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sessionid</field>
+        <id>43eedd81477af950e109fd69e16d43e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:51</sys_created_on>
+        <sys_id>97eedd81477af950e109fd69e16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</table>
+        <value>{{c3378683-9680-49b6-b63c-85c09da0493a.payload.sessionId}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>swt</field>
+        <id>43eedd81477af950e109fd69e16d43e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:51</sys_created_on>
+        <sys_id>d3eedd81477af950e109fd69e16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</table>
+        <value>{{c3378683-9680-49b6-b63c-85c09da0493a.payload.swt}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>url</field>
+        <id>43eedd81477af950e109fd69e16d43e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:51</sys_created_on>
+        <sys_id>5beedd81477af950e109fd69e16d43ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:51</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</table>
+        <value>{{c3378683-9680-49b6-b63c-85c09da0493a.payload.redirectUrl}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=43eedd81477af950e109fd69e16d43e6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=43eedd81477af950e109fd69e16d43e6"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=244c5101477af950e109fd69e16d431c^sys_idNOT IN0069420947faf950e109fd69e16d4324,4869420947faf950e109fd69e16d4323"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>244c5101477af950e109fd69e16d431c</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>1360e431-cc26-44c2-89d5-24192d0ccc56</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:43:20</sys_created_on>
+        <sys_id>0069420947faf950e109fd69e16d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:20</sys_updated_on>
+        <transform_compositions>[{"id":"9c4cf2c60f4130106d1a3a3485767ef7","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="convert_string_to_number">bfac1e0e0f0130106d1a3a3485767e8a</transform_definition_id>
+        <ui_id>be4940e2-f9c4-44e4-86dd-2f0e8f538ab0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>244c5101477af950e109fd69e16d431c</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{74f3b646-7764-4daa-af36-9c81f03d84c5.Record.product_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:43:20</sys_created_on>
+        <sys_id>4869420947faf950e109fd69e16d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:20</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1360e431-cc26-44c2-89d5-24192d0ccc56</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=244c5101477af950e109fd69e16d431c^sys_idNOT INaaa6864547faf950e109fd69e16d4301"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=61d5cf94-eb95-40df-9ca5-190187cb84c0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</model>
+        <model_id>244c5101477af950e109fd69e16d431c</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_244c5101477af950e109fd69e16d431c</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:29</sys_created_on>
+        <sys_id>aaa6864547faf950e109fd69e16d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:29</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c^sys_idNOT IN372dd141477af950e109fd69e16d4347,9044aa41477ef950e109fd69e16d43b9,fb2dd141477af950e109fd69e16d434a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>product</element>
+        <help/>
+        <hint/>
+        <label>Product</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:15</sys_created_on>
+        <sys_id>372dd141477af950e109fd69e16d4347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>package</element>
+        <help/>
+        <hint/>
+        <label>Package</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 15:40:46</sys_created_on>
+        <sys_id>9044aa41477ef950e109fd69e16d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:40:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>organzation</element>
+        <help/>
+        <hint/>
+        <label>Organzation</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:15</sys_created_on>
+        <sys_id>fb2dd141477af950e109fd69e16d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_244c5101477af950e109fd69e16d431c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c^sys_idNOT INb2eedd81477af950e109fd69e16d43d9,b2eedd81477af950e109fd69e16d43dc,b72dd141477af950e109fd69e16d4369"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sessionid</element>
+        <help/>
+        <hint/>
+        <label>SessionId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:49</sys_created_on>
+        <sys_id>b2eedd81477af950e109fd69e16d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>swt</element>
+        <help/>
+        <hint/>
+        <label>SWT</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:37:49</sys_created_on>
+        <sys_id>b2eedd81477af950e109fd69e16d43dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:37:49</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>url</element>
+        <help/>
+        <hint/>
+        <label>URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:15</sys_created_on>
+        <sys_id>b72dd141477af950e109fd69e16d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_244c5101477af950e109fd69e16d431c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>update_and_generate_document_page</internal_name>
+        <label_cache>[{"name":"subflow.package_alias","label":"Input➛Package Alias","type":"string","base_type":"string","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"200e063d-8725-4b90-934c-ad91f323200e"}},{"name":"subflow.product","label":"Input➛Product","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"c7c5448c-0414-47de-b1fe-5eec9bd63974"}},{"name":"c3378683-9680-49b6-b63c-85c09da0493a.payload.swt","label":"5 - Copy of Begin Session➛Payload➛swt","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"c3378683-9680-49b6-b63c-85c09da0493a.payload.sessionId","label":"5 - Copy of Begin Session➛Payload➛sessionId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"c3378683-9680-49b6-b63c-85c09da0493a.payload.redirectUrl","label":"5 - Copy of Begin Session➛Payload➛redirectUrl","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"e48fcc8d-33fd-44e0-97f2-00bdd71c1593.bearer_token","label":"1 - Get Bearer Token➛Bearer Token","reference_display":"Bearer Token","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"e4a1c3e4-6b13-44d8-aa67-3132a618090a"}},{"name":"subflow.organzation","label":"Input➛Organzation","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"6ec15662-a242-409c-875b-a13831ac7c5b","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7daafd77-8233-418c-8232-e061799fca29.Record.organization_id","label":"2 - Look Up Record➛Organization Record➛Organization ID","reference":"","reference_display":"Organization ID","type":"string","base_type":"string","parent_table_name":"x_snc_woltersklu_0_organization","column_name":"organization_id"},{"name":"74f3b646-7764-4daa-af36-9c81f03d84c5.Record.product_id","label":"3 - Look Up Record➛Products Record➛Product ID","reference":"","reference_display":"Product ID","type":"string","base_type":"string","parent_table_name":"x_snc_woltersklu_0_products","column_name":"product_id"},{"name":"e0614d4d-7403-4c6a-8265-bcca9b751b3d.variable.transactionXml","label":"4 - Update Transaction➛Payload➛transactionXml","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"64c8c4f0-eb52-4bfc-84d1-e7b905b8667d.variable","label":"5 - Sanitize XML Cluwer➛OPxml","reference_display":"OPxml","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ff609b00-5773-4466-a0d4-d381ac7903b0"}},{"name":"subflow.package","label":"Input➛Package","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"c42f881e-ab3a-41f3-86ae-8a3ea6dc2d43","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
+        <master>true</master>
+        <name>Update and Generate Document Page</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a93d1541477af950e109fd69e16d432f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:27</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a93d1541477af950e109fd69e16d432f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a93d1541477af950e109fd69e16d432f"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f^id=a93d1541477af950e109fd69e16d432f"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=a93d1541477af950e109fd69e16d432f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=a93d1541477af950e109fd69e16d432f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=a93d1541477af950e109fd69e16d432f^sys_idNOT INa93d1541477af950e109fd69e16d4330"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>a93d1541477af950e109fd69e16d432f</id>
+        <name>Update and Generate Document Page</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:23</sys_created_on>
+        <sys_id>a93d1541477af950e109fd69e16d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a93d1541477af950e109fd69e16d4330"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=a93d1541477af950e109fd69e16d432f^sys_idNOT IN04542e41477ef950e109fd69e16d430b,3c4d1541477af950e109fd69e16d43aa,3d3d1541477af950e109fd69e16d4333"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c42f881e-ab3a-41f3-86ae-8a3ea6dc2d43</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>package</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Package</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</model>
+        <model_id>a93d1541477af950e109fd69e16d432f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 15:41:01</sys_created_on>
+        <sys_id>04542e41477ef950e109fd69e16d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:01</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=04542e41477ef950e109fd69e16d430b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6ec15662-a242-409c-875b-a13831ac7c5b</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>organzation</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Organzation</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</model>
+        <model_id>a93d1541477af950e109fd69e16d432f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:35</sys_created_on>
+        <sys_id>3c4d1541477af950e109fd69e16d43aa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3c4d1541477af950e109fd69e16d43aa"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=c7c5448c-0414-47de-b1fe-5eec9bd63974</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>product</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Product</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</model>
+        <model_id>a93d1541477af950e109fd69e16d432f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:23</sys_created_on>
+        <sys_id>3d3d1541477af950e109fd69e16d4333</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3d3d1541477af950e109fd69e16d4333"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=a93d1541477af950e109fd69e16d432f^sys_idNOT IN744d1541477af950e109fd69e16d43b4,9dfe51c1477af950e109fd69e16d4313,b5fe51c1477af950e109fd69e16d4328"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=cc1fd3a0-85b7-49a7-99d6-866b4fe3889c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>url</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>URL</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</model>
+        <model_id>a93d1541477af950e109fd69e16d432f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:36</sys_created_on>
+        <sys_id>744d1541477af950e109fd69e16d43b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:04</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=744d1541477af950e109fd69e16d43b4"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=958dc23d-1e16-449d-bd34-574173602f24</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>sessionid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SessionId</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</model>
+        <model_id>a93d1541477af950e109fd69e16d432f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:00</sys_created_on>
+        <sys_id>9dfe51c1477af950e109fd69e16d4313</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9dfe51c1477af950e109fd69e16d4313"/>
+    <sys_hub_flow_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=88f4994e-c824-49b1-aafa-99503b17372d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>swt</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>SWT</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</model>
+        <model_id>a93d1541477af950e109fd69e16d432f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:02</sys_created_on>
+        <sys_id>b5fe51c1477af950e109fd69e16d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5fe51c1477af950e109fd69e16d4328"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a93d1541477af950e109fd69e16d432f"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=a93d1541477af950e109fd69e16d432f^sys_idNOT IN514d5541477af950e109fd69e16d430e,93b6c64547faf950e109fd69e16d43d9,a3151ac1473ef950e109fd69e16d4310,d14d1541477af950e109fd69e16d43ff,d3b6c64547faf950e109fd69e16d43d0,e54d5541477af950e109fd69e16d4324"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Transaction">30946b4247eeb150e109fd69e16d43ea</action_type>
+        <action_type_parent display_value="Update Transaction">2a4fbec2476eb150e109fd69e16d4302</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</flow>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:38</sys_created_on>
+        <sys_id>514d5541477af950e109fd69e16d430e</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:25</sys_updated_on>
+        <ui_id>e0614d4d-7403-4c6a-8265-bcca9b751b3d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=514d5541477af950e109fd69e16d430e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>514d5541477af950e109fd69e16d430e</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:38</sys_created_on>
+        <sys_id>994d5541477af950e109fd69e16d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:38</sys_updated_on>
+        <value/>
+        <variable display_value="Organization Id">0d94ab4247eeb150e109fd69e16d430c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=514d5541477af950e109fd69e16d430e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer_token</field>
+        <id>514d5541477af950e109fd69e16d430e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:38</sys_created_on>
+        <sys_id>554d5541477af950e109fd69e16d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30946b4247eeb150e109fd69e16d43ea</table>
+        <value>{{e48fcc8d-33fd-44e0-97f2-00bdd71c1593.bearer_token}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>organization_id</field>
+        <id>514d5541477af950e109fd69e16d430e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:38</sys_created_on>
+        <sys_id>194d5541477af950e109fd69e16d430f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30946b4247eeb150e109fd69e16d43ea</table>
+        <value>{{7daafd77-8233-418c-8232-e061799fca29.Record.organization_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Products</field>
+        <id>514d5541477af950e109fd69e16d430e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:38</sys_created_on>
+        <sys_id>914d5541477af950e109fd69e16d430f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30946b4247eeb150e109fd69e16d43ea</table>
+        <value>{"version":"1.0","complexObjectSchema":{"FlowDesigner:FDfc94ab4209eeb150d7602587d8deea05":{"$COCollectionField":["Integer"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDfc94ab4209eeb150d7602587d8deea05.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Products\",\"mandatory\":\"false\",\"child_name\":\"Product_Id\",\"uiUniqueId\":\"520fa2b3-9ad3-4f2c-91a1-c8233bdca35b\",\"uiTypeLabel\":\"Array.Integer\",\"co_type_name\":\"FDfc94ab4209eeb150d7602587d8deea05\",\"child_label\":\"Product Id\",\"child_type_label\":\"Integer\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.integer\",\"mapped\":\"{\\\"[0]\\\":\\\"{{fd_transform:1360e431-cc26-44c2-89d5-24192d0ccc56}}\\\"}\",\"child_type\":\"integer\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"d408179b-f5e0-4dfa-a90a-cbec16389bca\"}"}},"complexObject":{"name$":"FDfc94ab4209eeb150d7602587d8deea05","$COCollectionField":["{{fd_transform:1360e431-cc26-44c2-89d5-24192d0ccc56}}"]},"serializationFormat":"JSON"}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=514d5541477af950e109fd69e16d430e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=514d5541477af950e109fd69e16d430e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:49</sys_created_on>
+        <sys_id>93b6c64547faf950e109fd69e16d43d9</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:25</sys_updated_on>
+        <ui_id>74f3b646-7764-4daa-af36-9c81f03d84c5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=93b6c64547faf950e109fd69e16d43d9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93b6c64547faf950e109fd69e16d43d9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:49</sys_created_on>
+        <sys_id>63b6c64547faf950e109fd69e16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:49</sys_updated_on>
+        <value>x_snc_woltersklu_0_products</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>93b6c64547faf950e109fd69e16d43d9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:49</sys_created_on>
+        <sys_id>afb6c64547faf950e109fd69e16d43da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:37</sys_updated_on>
+        <value/>
+        <variable display_value="Conditions">d509f99587003300663ca1bb36cb0ba9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=93b6c64547faf950e109fd69e16d43d9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>93b6c64547faf950e109fd69e16d43d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:49</sys_created_on>
+        <sys_id>6bb6c64547faf950e109fd69e16d43da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>product_name={{subflow.product}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>93b6c64547faf950e109fd69e16d43d9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:49</sys_created_on>
+        <sys_id>2fb6c64547faf950e109fd69e16d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:49</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=93b6c64547faf950e109fd69e16d43d9"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=93b6c64547faf950e109fd69e16d43d9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Sanitize XML Cluwer">1b2fca4d47faf950e109fd69e16d432b</action_type>
+        <action_type_parent display_value="Sanitize XML Cluwer">241e8a0d47faf950e109fd69e16d43d9</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</flow>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:34:37</sys_created_on>
+        <sys_id>a3151ac1473ef950e109fd69e16d4310</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:25</sys_updated_on>
+        <ui_id>64c8c4f0-eb52-4bfc-84d1-e7b905b8667d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a3151ac1473ef950e109fd69e16d4310"/>
+    <sys_element_mapping action="delete_multiple" query="id=a3151ac1473ef950e109fd69e16d4310"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>xml</field>
+        <id>a3151ac1473ef950e109fd69e16d4310</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:34:37</sys_created_on>
+        <sys_id>ef151ac1473ef950e109fd69e16d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 14:34:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_1b2fca4d47faf950e109fd69e16d432b</table>
+        <value>{{e0614d4d-7403-4c6a-8265-bcca9b751b3d.variable.transactionXml}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a3151ac1473ef950e109fd69e16d4310"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a3151ac1473ef950e109fd69e16d4310"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Bearer Token">bcb131a7c319bd109d0a212ad0013193</action_type>
+        <action_type_parent display_value="Get Bearer Token">1918e92bc3d5bd109d0a212ad00131fb</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:37</sys_created_on>
+        <sys_id>d14d1541477af950e109fd69e16d43ff</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:24</sys_updated_on>
+        <ui_id>e48fcc8d-33fd-44e0-97f2-00bdd71c1593</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d14d1541477af950e109fd69e16d43ff"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d14d1541477af950e109fd69e16d43ff"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d14d1541477af950e109fd69e16d43ff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:48</sys_created_on>
+        <sys_id>d3b6c64547faf950e109fd69e16d43d0</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:24</sys_updated_on>
+        <ui_id>7daafd77-8233-418c-8232-e061799fca29</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d3b6c64547faf950e109fd69e16d43d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d3b6c64547faf950e109fd69e16d43d0</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:48</sys_created_on>
+        <sys_id>dfb6c64547faf950e109fd69e16d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:48</sys_updated_on>
+        <value>x_snc_woltersklu_0_organization</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d3b6c64547faf950e109fd69e16d43d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>d3b6c64547faf950e109fd69e16d43d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:48</sys_created_on>
+        <sys_id>9bb6c64547faf950e109fd69e16d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>organization_name={{subflow.organzation}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>d3b6c64547faf950e109fd69e16d43d0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:48</sys_created_on>
+        <sys_id>5fb6c64547faf950e109fd69e16d43d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:48</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d3b6c64547faf950e109fd69e16d43d0"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d3b6c64547faf950e109fd69e16d43d0"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy of Begin Session">40081c6447767d5055d70dcfe16d438d</action_type>
+        <action_type_parent display_value="Copy of Begin Session">1b820b9b476a795055d70dcfe16d4398</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</flow>
+        <order>6</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:38</sys_created_on>
+        <sys_id>e54d5541477af950e109fd69e16d4324</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:25</sys_updated_on>
+        <ui_id>c3378683-9680-49b6-b63c-85c09da0493a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e54d5541477af950e109fd69e16d4324"/>
+    <sys_element_mapping action="delete_multiple" query="id=e54d5541477af950e109fd69e16d4324"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>bearer_token</field>
+        <id>e54d5541477af950e109fd69e16d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:39</sys_created_on>
+        <sys_id>a94d5541477af950e109fd69e16d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40081c6447767d5055d70dcfe16d438d</table>
+        <value>{{e48fcc8d-33fd-44e0-97f2-00bdd71c1593.bearer_token}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>content_uri</field>
+        <id>e54d5541477af950e109fd69e16d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 15:21:57</sys_created_on>
+        <sys_id>70ffda4d473ef950e109fd69e16d43db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40081c6447767d5055d70dcfe16d438d</table>
+        <value>expere://Comm202305/PKG.{{subflow.package}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>transaction_xml</field>
+        <id>e54d5541477af950e109fd69e16d4324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 14:34:38</sys_created_on>
+        <sys_id>af151ac1473ef950e109fd69e16d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 14:34:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_40081c6447767d5055d70dcfe16d438d</table>
+        <value>{{64c8c4f0-eb52-4bfc-84d1-e7b905b8667d.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e54d5541477af950e109fd69e16d4324"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e54d5541477af950e109fd69e16d4324"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=a93d1541477af950e109fd69e16d432f"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=a93d1541477af950e109fd69e16d432f^sys_idNOT INbafe51c1477af950e109fd69e16d43df"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">87eedd81477af950e109fd69e16d43e5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Assign Subflow Outputs">df4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>7</order>
+        <outputs_assigned>sessionid,swt,url</outputs_assigned>
+        <outputs_to_assign/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:06</sys_created_on>
+        <sys_id>bafe51c1477af950e109fd69e16d43df</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:27</sys_updated_on>
+        <ui_id>9fc05a89-cb58-4b14-ba17-7d0370064b44</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bafe51c1477af950e109fd69e16d43df"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_a93d1541477af950e109fd69e16d432f^id=bafe51c1477af950e109fd69e16d43df"/>
+    <sys_element_mapping action="delete_multiple" query="id=bafe51c1477af950e109fd69e16d43df"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sessionid</field>
+        <id>bafe51c1477af950e109fd69e16d43df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:06</sys_created_on>
+        <sys_id>7afe51c1477af950e109fd69e16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</table>
+        <value>{{c3378683-9680-49b6-b63c-85c09da0493a.payload.sessionId}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>swt</field>
+        <id>bafe51c1477af950e109fd69e16d43df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:06</sys_created_on>
+        <sys_id>b6fe51c1477af950e109fd69e16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</table>
+        <value>{{c3378683-9680-49b6-b63c-85c09da0493a.payload.swt}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>url</field>
+        <id>bafe51c1477af950e109fd69e16d43df</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:06</sys_created_on>
+        <sys_id>3efe51c1477af950e109fd69e16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:06</sys_updated_on>
+        <table>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</table>
+        <value>{{c3378683-9680-49b6-b63c-85c09da0493a.payload.redirectUrl}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bafe51c1477af950e109fd69e16d43df"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bafe51c1477af950e109fd69e16d43df"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=a93d1541477af950e109fd69e16d432f^sys_idNOT INbc79820947faf950e109fd69e16d43d7,f879820947faf950e109fd69e16d43d7"/>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a93d1541477af950e109fd69e16d432f</attached_to>
+        <extra_info/>
+        <order>0</order>
+        <prescription>{{74f3b646-7764-4daa-af36-9c81f03d84c5.Record.product_id}}</prescription>
+        <source_ui_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:43:39</sys_created_on>
+        <sys_id>bc79820947faf950e109fd69e16d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:39</sys_updated_on>
+        <transform_compositions>[]</transform_compositions>
+        <transform_definition_id/>
+        <ui_id>1360e431-cc26-44c2-89d5-24192d0ccc56</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_pill_compound action="INSERT_OR_UPDATE">
+        <attached_to>a93d1541477af950e109fd69e16d432f</attached_to>
+        <extra_info/>
+        <order>1</order>
+        <prescription/>
+        <source_ui_id>1360e431-cc26-44c2-89d5-24192d0ccc56</source_ui_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:43:39</sys_created_on>
+        <sys_id>f879820947faf950e109fd69e16d43d7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:43:39</sys_updated_on>
+        <transform_compositions>[{"id":"9c4cf2c60f4130106d1a3a3485767ef7","transformType":null,"transformDefinition":null,"order":0,"parameters":[]}]</transform_compositions>
+        <transform_definition_id display_value="convert_string_to_number">bfac1e0e0f0130106d1a3a3485767e8a</transform_definition_id>
+        <ui_id>be4940e2-f9c4-44e4-86dd-2f0e8f538ab0</ui_id>
+    </sys_hub_pill_compound>
+    <sys_hub_flow_variable action="delete_multiple" query="model=a93d1541477af950e109fd69e16d432f^sys_idNOT IN4bb6c64547faf950e109fd69e16d43c1"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=61d5cf94-eb95-40df-9ca5-190187cb84c0</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Update and Generate Document Page">a93d1541477af950e109fd69e16d432f</model>
+        <model_id>a93d1541477af950e109fd69e16d432f</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_a93d1541477af950e109fd69e16d432f</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 13:31:48</sys_created_on>
+        <sys_id>4bb6c64547faf950e109fd69e16d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f^sys_idNOT IN304d1541477af950e109fd69e16d43af,8e542e41477ef950e109fd69e16d43ed,e04d1541477af950e109fd69e16d43a7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>organzation</element>
+        <help/>
+        <hint/>
+        <label>Organzation</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:36</sys_created_on>
+        <sys_id>304d1541477af950e109fd69e16d43af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>package</element>
+        <help/>
+        <hint/>
+        <label>Package</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 15:41:10</sys_created_on>
+        <sys_id>8e542e41477ef950e109fd69e16d43ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>product</element>
+        <help/>
+        <hint/>
+        <label>Product</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:34</sys_created_on>
+        <sys_id>e04d1541477af950e109fd69e16d43a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_a93d1541477af950e109fd69e16d432f"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f^sys_idNOT IN0afe51c1477af950e109fd69e16d432c,6dfe51c1477af950e109fd69e16d4324,cd4d1541477af950e109fd69e16d43b8"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>swt</element>
+        <help/>
+        <hint/>
+        <label>SWT</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:03</sys_created_on>
+        <sys_id>0afe51c1477af950e109fd69e16d432c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:03</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>sessionid</element>
+        <help/>
+        <hint/>
+        <label>SessionId</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:38:01</sys_created_on>
+        <sys_id>6dfe51c1477af950e109fd69e16d4324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:38:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>url</element>
+        <help/>
+        <hint/>
+        <label>URL</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:36</sys_created_on>
+        <sys_id>cd4d1541477af950e109fd69e16d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:30:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_a93d1541477af950e109fd69e16d432f"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>244c5101477af950e109fd69e16d431c</sys_id>
+        <latest_snapshot>a93d1541477af950e109fd69e16d432f</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch4-hotfix1-11-16-2023_12-11-2023_1631.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=244c5101477af950e109fd69e16d431c"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=244c5101477af950e109fd69e16d431c^sys_idNOT IN374d9541477af950e109fd69e16d4352"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"374d9541477af950e109fd69e16d4352","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Update and Generate Document Page">244c5101477af950e109fd69e16d431c</plan_id>
+        <snapshot>9cf6308447d7311055d70dcfe16d438d</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>374d9541477af950e109fd69e16d4352</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 15:41:42</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>

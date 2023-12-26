@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_snc_woltersklu_0/get_ck_token</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Get CK Token</name>
+        <namespace>x_snc_woltersklu_0</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>get_ck_token</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 21:16:02</sys_created_on>
+        <sys_id>be4d0a2c475f7110e109fd69e16d43c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get CK Token</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_ws_definition_be4d0a2c475f7110e109fd69e16d43c8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 21:16:02</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

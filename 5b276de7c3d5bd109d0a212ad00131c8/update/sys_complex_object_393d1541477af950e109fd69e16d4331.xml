@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD753d1541e17af950962936085460f031</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5b276de7c3d5bd109d0a212ad00131c8</scope_name>
+        <serialized_content>{"FlowDesigner:FD753d1541e17af950962936085460f031":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD753d1541e17af950962936085460f031.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Product\",\"mandatory\":\"false\",\"child_name\":\"product_child0\",\"uiUniqueId\":\"c7c5448c-0414-47de-b1fe-5eec9bd63974\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD753d1541e17af950962936085460f031\",\"child_label\":\"Product_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"a5130b42-1838-4bc8-b275-294001f786cc\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:30:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>393d1541477af950e109fd69e16d4331</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>FD753d1541e17af950962936085460f031</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_complex_object_393d1541477af950e109fd69e16d4331</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 13:31:41</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

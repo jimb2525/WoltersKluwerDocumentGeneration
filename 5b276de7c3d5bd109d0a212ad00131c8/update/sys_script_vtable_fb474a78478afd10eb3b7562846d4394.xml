@@ -28,7 +28,7 @@
 
 	try {
 		var inputs = {};
-		inputs['bearer_token'] = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjgwMDYwNEFEOTcxOTI4NzdGNUMyM0IzMURFRDU4MzA2OEI1QzE5QjFSUzI1NiIsIng1dCI6ImdBWUVyWmNaS0hmMXdqc3gzdFdEQm90Y0diRSIsInR5cCI6ImF0K2p3dCJ9.eyJpc3MiOiJodHRwczovL2N0LWFkbWluLndvbHRlcnNrbHV3ZXJmcy5jb20vU1RTIiwibmJmIjoxNjk4NDI3ODE3LCJpYXQiOjE2OTg0Mjc4MTcsImV4cCI6MTY5ODQzMTQxNywiYXVkIjpbIndrLWRncy1jb3JlIiwid2stZXpjZmctZGVmLWRhdGEtcmVhZCIsIndrLmV6Y2ZnLmRlZi5kYXRhIiwid2stZXpjZmctcGtnLXBrdC1yZWFkIiwid2suZXpjZmcucGtnLnBrdCIsImh0dHBzOi8vY3QtYWRtaW4ud29sdGVyc2tsdXdlcmZzLmNvbS9TVFMvcmVzb3VyY2VzIl0sInNjb3BlIjpbIndrLWRncy1jb3JlLXJlYWQiLCJ3ay1kZ3MtY29yZS13cml0ZSIsIndrLWV6Y2ZnLWRlZi1kYXRhLXJlYWQiLCJ3ay1lemNmZy1wa2ctcGt0LXJlYWQiXSwiY2xpZW50X2lkIjoiMTA2NzEuQ3luYyBMT1MuMTAwMTA4NTk2LkFjY291bnRDbGllbnQuMSIsImFjY291bnQtaWQiOiIxMDY3MSIsImFjY291bnQtdW5pcXVlaWQiOiIxNzdjZTI2YS05ZGJlLTQwMTgtYWIyOC1jMmQ3YjUxYzMzNjkiLCJqdGkiOiJERTlCM0FGOTZEMTAzRUFDQjc0RUE2QzBBM0Q4NTA5RCJ9.FNX8jrFdutcqvzbB4-HhkIrEpo7Y2gwn5OHUl4LZ6tHU3B3py10nIqcijc5QxfsX1CIx8uMy-mW4OSJeUoYJIJbRGXNrIXi0yB9HTSqnqCvBQeJLSY4G-H8EX3nMPcW34bF1fFlYbMCClGQw06UpP3jyLom3_Fud35d-ymYBfiJaOBO1xxkRvUpIAbTSsBivxjPHKEQzl8bItzdZqpEsfscaMGRCIW75aTQbhQgSA4SDDr6WiIX4bhSvxEKZ7-_L_8ycBEjkmKnhUUKrIP0ItaVXJWFjRJemF8om81AVF3KkRlw75ChpcNFM_NNVFBNKWbMm-Mpvvr_W8UDR370_ew'; // String 
+		inputs['bearer_token'] = 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjgwMDYwNEFEOTcxOTI4NzdGNUMyM0IzMURFRDU4MzA2OEI1QzE5QjFSUzI1NiIsIng1dCI6ImdBWUVyWmNaS0hmMXdqc3gzdFdEQm90Y0diRSIsInR5cCI6ImF0K2p3dCJ9.eyJpc3MiOiJodHRwczovL2N0LWFkbWluLndvbHRlcnNrbHV3ZXJmcy5jb20vU1RTIiwibmJmIjoxNjk5MDMzODMyLCJpYXQiOjE2OTkwMzM4MzIsImV4cCI6MTY5OTAzNzQzMiwiYXVkIjpbIndrLWRncy1jb3JlIiwid2stZXpjZmctZGVmLWRhdGEtcmVhZCIsIndrLmV6Y2ZnLmRlZi5kYXRhIiwid2stZXpjZmctcGtnLXBrdC1yZWFkIiwid2suZXpjZmcucGtnLnBrdCIsImh0dHBzOi8vY3QtYWRtaW4ud29sdGVyc2tsdXdlcmZzLmNvbS9TVFMvcmVzb3VyY2VzIl0sInNjb3BlIjpbIndrLWRncy1jb3JlLXJlYWQiLCJ3ay1kZ3MtY29yZS13cml0ZSIsIndrLWV6Y2ZnLWRlZi1kYXRhLXJlYWQiLCJ3ay1lemNmZy1wa2ctcGt0LXJlYWQiXSwiY2xpZW50X2lkIjoiMTA2NzEuQ3luYyBMT1MuMTAwMTA4NTk2LkFjY291bnRDbGllbnQuMSIsImFjY291bnQtaWQiOiIxMDY3MSIsImFjY291bnQtdW5pcXVlaWQiOiIxNzdjZTI2YS05ZGJlLTQwMTgtYWIyOC1jMmQ3YjUxYzMzNjkiLCJqdGkiOiI5NDI2MTE4QTIwMUE4Q0ExM0VFQzgwMUU3MEZENjFBOCJ9.XR6IQDkHifEwuN69Kz-tMBSCVbqWXDlo7wz9yzhELexsP_0O676F7NseuQUszpG0miAPTxoZitV1maYxpeq6TFXzRVpUBgc56UTMYVUZWYToP6NtA0Y2rvBhq6S8-UVvOGvShCElEQbvFOfcgA-ds7b4HEDMZ0PjhI-sQtRJxaYooAtozhZjVs_2q8U_p3GGktCZNmpumYYg7_VAUtqhw4E0wNOS4e0siS_lgucDrLYdiFlqCcRanz0hTvxxU9cqmCtRmNQbBJnne5PrRHoLoSFGeAyGtAWldpdZiFxVmhP8ng8ofknzVOqr6oDq7a8P0r_G_lEmEiH20Sglaem5xA'; // String 
 
 		// Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
 		// sn_fd.FlowAPI.getRunner().subflow('x_snc_woltersklu_0.get_packages_subflow').inBackground().withInputs(inputs).run();
@@ -59,14 +59,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fb474a78478afd10eb3b7562846d4394</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>RT Get Packages</sys_name>
         <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
         <sys_policy/>
         <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
         <sys_update_name>sys_script_vtable_fb474a78478afd10eb3b7562846d4394</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-27 17:38:08</sys_updated_on>
+        <sys_updated_on>2023-11-03 18:04:56</sys_updated_on>
         <table>x_snc_woltersklu_0_st_rt_packages</table>
     </sys_script_vtable>
 </record_update>

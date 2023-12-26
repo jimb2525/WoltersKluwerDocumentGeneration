@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD833ac470c17ab9509c848e644ced0a65</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5b276de7c3d5bd109d0a212ad00131c8</scope_name>
+        <serialized_content>{"FlowDesigner:FD833ac470c17ab9509c848e644ced0a65":{"$COCollectionField":["Integer"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD833ac470c17ab9509c848e644ced0a65.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Product\",\"mandatory\":\"false\",\"child_name\":\"product_child0\",\"uiUniqueId\":\"f3e1aa84-06c7-4387-a5bc-9a8fe6e62e60\",\"uiTypeLabel\":\"Array.Integer\",\"co_type_name\":\"FD833ac470c17ab9509c848e644ced0a65\",\"child_label\":\"Product_child0\",\"child_type_label\":\"Integer\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.integer\",\"child_type\":\"integer\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"5d376fc2-11ec-4d6e-92b2-ac6216b45f41\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>pk</sys_created_by>
+        <sys_created_on>2023-11-26 09:49:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>473ac470477ab950e109fd69e16d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD833ac470c17ab9509c848e644ced0a65</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_complex_object_473ac470477ab950e109fd69e16d4365</sys_update_name>
+        <sys_updated_by>pk</sys_updated_by>
+        <sys_updated_on>2023-11-26 09:49:22</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

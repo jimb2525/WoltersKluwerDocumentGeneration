@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD589dd941527af950576a0991a508ba29</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5b276de7c3d5bd109d0a212ad00131c8</scope_name>
+        <serialized_content>{"FlowDesigner:FD589dd941527af950576a0991a508ba29":{"$COCollectionField":["Integer"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD589dd941527af950576a0991a508ba29.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"max_rows\":null,\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"Product\",\"mandatory\":\"false\",\"child_name\":\"product_child0\",\"uiUniqueId\":\"c7c5448c-0414-47de-b1fe-5eec9bd63974\",\"uiTypeLabel\":\"Array.Integer\",\"co_type_name\":\"FD589dd941527af950576a0991a508ba29\",\"child_label\":\"Product_child0\",\"child_type_label\":\"Integer\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.integer\",\"child_defaultValue\":\"\",\"child_type\":\"integer\",\"order\":\"1\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"de1c1e22-210b-4aa1-9faa-50890a6113c6\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:31:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c9dd941477af950e109fd69e16d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD589dd941527af950576a0991a508ba29</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_complex_object_1c9dd941477af950e109fd69e16d4329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-27 10:31:55</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

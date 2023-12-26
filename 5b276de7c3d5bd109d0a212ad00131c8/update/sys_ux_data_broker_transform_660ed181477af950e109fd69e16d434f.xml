@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_woltersklu_0.Update and Begin Txn</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Update and Begin Txn</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+    {&#13;
+        "name": "OrganizationName",&#13;
+        "label": "OrganizationId",&#13;
+        "description": "Organization selected",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "object",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    },&#13;
+    {&#13;
+        "name": "ProductName",&#13;
+        "label": "ProductId",&#13;
+        "description": "Product selected",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "object",&#13;
+        "mandatory": false,&#13;
+        "defaultValue": ""&#13;
+    },&#13;
+     {&#13;
+        "name": "PackageName",&#13;
+        "label": "PackageId",&#13;
+        "description": "Package selected",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "object",&#13;
+        "mandatory": false,&#13;
+        "defaultValue": ""&#13;
+    }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Organization selected",
+  "comment" : ""
+}, {
+  "message" : "OrganizationId",
+  "comment" : ""
+}, {
+  "message" : "Package selected",
+  "comment" : ""
+}, {
+  "message" : "PackageId",
+  "comment" : ""
+}, {
+  "message" : "Product selected",
+  "comment" : ""
+}, {
+  "message" : "ProductId",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+
+    try {
+        var inputs = {};
+        inputs['product'] = input.ProductName; // Array.Integer 
+        inputs['organzation'] = input.OrganizationName; // String 
+        inputs['package'] = input.PackageName; // String
+        gs.info("flag:" + JSON.stringify(input));
+        // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
+        // sn_fd.FlowAPI.getRunner().subflow('x_snc_woltersklu_0.update_and_generate_document_page').inBackground().withInputs(inputs).run();
+
+        // Execute Synchronously: Run in foreground. Code snippet has access to outputs.
+        var result = sn_fd.FlowAPI.getRunner().subflow('x_snc_woltersklu_0.update_and_generate_document_page').inForeground().withInputs(inputs).run();
+        var outputs = result.getOutputs();
+
+        // Get Outputs:
+        // Note: outputs can only be retrieved when executing synchronously.
+        var sessionid = outputs['sessionid']; // String
+        var swt = outputs['swt']; // String
+        var url = outputs['url']; // String
+
+        var f_result = {
+            "sessionid": sessionid,
+            "swt": swt,
+            "url": url + "Documents/Selection/?sessionid=" + sessionid,
+            "org": input.OrganizationId,
+            "prod": input.ProductName
+        };
+        gs.info('full_object' + JSON.stringify(f_result));
+        return f_result;
+
+    } catch (ex) {
+        var message = ex.getMessage();
+        gs.error(message);
+    }
+
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-27 10:42:40</sys_created_on>
+        <sys_id>660ed181477af950e109fd69e16d434f</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Update and Begin Txn</sys_name>
+        <sys_package display_value="WoltersKluwer Document Generation" source="x_snc_woltersklu_0">5b276de7c3d5bd109d0a212ad00131c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="WoltersKluwer Document Generation">5b276de7c3d5bd109d0a212ad00131c8</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_660ed181477af950e109fd69e16d434f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-28 09:56:58</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=660ed181477af950e109fd69e16d434f"/>
+</record_update>
